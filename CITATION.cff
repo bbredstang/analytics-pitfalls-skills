@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or adapt these skills, credit them as below. The license (CC BY 4.0) requires it."
+title: "Analytics Pitfalls & Principles: skills for your AI"
+type: software
+authors:
+  - given-names: Brian
+    family-names: Cariveau
+    website: "https://www.analyticspitfalls.com/about"
+abstract: "Free skills for Claude, ChatGPT and Gemini, made from the pitfall and principle cards and the ten frameworks of Analytics Pitfalls & Principles by Brian Cariveau."
+license: CC-BY-4.0
+url: "https://www.analyticspitfalls.com/library/skills"
+repository-code: "https://github.com/bbredstang/analytics-pitfalls-skills"
+keywords:
+  - analytics
+  - analytics leadership
+  - data strategy
+  - AI strategy
+  - agent skills
+  - SKILL.md
