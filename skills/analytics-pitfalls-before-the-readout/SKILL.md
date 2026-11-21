@@ -1,12 +1,12 @@
 ---
 name: analytics-pitfalls-before-the-readout
-description: "Before the readout: 12 cards from Analytics Pitfalls & Principles, by Brian Cariveau, to check a number, an analysis or a deck before it goes to leadership."
+description: "Before the readout: 13 cards from Analytics Pitfalls & Principles, by Brian Cariveau, to check a number, an analysis or a deck before it goes to leadership."
 license: CC-BY-4.0
 ---
 
 # Before the readout
 
-From Analytics Pitfalls & Principles, by Brian Cariveau: 12 cards and 1 framework for a number, an analysis or a deck before it goes to leadership. Every card, free: https://www.analyticspitfalls.com/library
+From Analytics Pitfalls & Principles, by Brian Cariveau: 13 cards and 1 framework for a number, an analysis or a deck before it goes to leadership. Every card, free: https://www.analyticspitfalls.com/library
 
 ## How to use it
 
@@ -28,6 +28,7 @@ Use it when someone shares or describes a number, an analysis or a deck before i
 6. What should someone do on Monday because of this? If it only looks in the rearview mirror, nobody will do anything. From: Rearview vs Windshield (`cards/rearview-vs-windshield.md`).
 7. Does it need to be certain? Seventy percent on time beats ninety-five percent too late. Would a quick test settle it? From: The 95% Confidence Trap (`cards/95-confidence-trap.md`), Hope is Not a Strategy (`cards/hope-is-not-a-strategy.md`), The 70% Confidence Principle (`frameworks/seventy-percent-confidence.md`).
 8. If AI wrote any of it, did someone actually read it? And is it inside the tolerance you set, or are you still asking whether it’s right? From: Confident, With Formatting (`cards/confident-with-formatting.md`), Is It Right? (`cards/is-it-right.md`).
+9. Say the number’s right. What has to change in how people work for it to move? That’s the part a readout can’t do for you. From: We're in the Behavior Change Business (`cards/were-in-the-behavior-change-business.md`).
 
 ## The cards
 
@@ -43,6 +44,7 @@ Use it when someone shares or describes a number, an analysis or a deck before i
 - **Hope is Not a Strategy (Why Guessing is Expensive)** (`cards/hope-is-not-a-strategy.md`): pitfall, Metrics & Evidence. Test everything. A/B test product changes, pricing, messaging, features—anything customers interact with.
 - **Confident, With Formatting (When Nobody Reads What the AI Wrote)** (`cards/confident-with-formatting.md`): pitfall, Metrics & Evidence. Your name is on it, so read it. Checking is faster than doing, and it is never zero.
 - **Is It Right? (The Wrong Question to Ask of AI)** (`cards/is-it-right.md`): pitfall, Metrics & Evidence. Ask whether it's within tolerance, and how you know. Nothing is right every time, in a factory or in AI.
+- **We're in the Behavior Change Business (Not the Data Business)** (`cards/were-in-the-behavior-change-business.md`): principle, Adoption & Product. Apply consumer behavior principles to analytics adoption. Make it stupid simple to use—reduce friction, eliminate training requirements where possible.
 
 ## The frameworks
 

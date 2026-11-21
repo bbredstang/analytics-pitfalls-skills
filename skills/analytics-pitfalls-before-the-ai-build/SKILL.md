@@ -6,7 +6,7 @@ license: CC-BY-4.0
 
 # Before the AI build
 
-From Analytics Pitfalls & Principles, by Brian Cariveau: 18 cards and 2 frameworks for an AI strategy, a pilot, an agent or a rollout. Every card, free: https://www.analyticspitfalls.com/library
+From Analytics Pitfalls & Principles, by Brian Cariveau: 18 cards and 3 frameworks for an AI strategy, a pilot, an agent or a rollout. Every card, free: https://www.analyticspitfalls.com/library
 
 ## How to use it
 
@@ -16,7 +16,8 @@ Use it when someone shares or describes an AI strategy, a pilot, an agent or a r
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
-5. Finish with the links of the cards you used.
+5. Then put it on the canvas, and offer the board (below).
+6. Finish with the links of the cards you used.
 
 ## Brian Cariveau's questions
 
@@ -28,6 +29,33 @@ Use it when someone shares or describes an AI strategy, a pilot, an agent or a r
 6. Will a person actually read what it writes before it goes out the door? Confident and nicely formatted doesn’t mean anyone checked it. From: Confident, With Formatting (`cards/confident-with-formatting.md`).
 7. Does it speed up one step while the customer still waits? Or is it paving the cow path, the old way only faster? From: Faster Saws (`cards/faster-saws.md`), The Porsche at the Front (`cards/porsche-at-the-front.md`), Faster at the Old Way (`cards/faster-at-the-old-way.md`).
 8. Who does it lean on, and who goes first? One expert with a line outside their door is a bottleneck. Start with a respected skeptic, not the fan club. And if the boss still asks for the old report, nothing changes. From: The Line Outside Elmer's Door (`cards/line-outside-elmers-door.md`), Everything Runs Through You (`cards/everything-runs-through-you.md`), The Back Row (`cards/back-row.md`), The Drain at the Top (`cards/drain-at-the-top.md`).
+9. Now get past the if-then part. Whose job changes, what do they have to trust, and what are they giving up? The agent is the easy part. From: It Was Never About the Tech (`frameworks/it-was-never-about-the-tech.md`).
+10. Who’s on your board? Before you build, convene a few people who’d poke holes in it, and hear them out now. It’s a lot cheaper than hearing it later.
+
+## Put it on the canvas
+
+When the questions are done, shuffle the strategy onto one page: four boxes. This isn't the business lean canvas. It's People, Process, Technology and Agentic.
+
+- **People**: Who has to change, who leads it, who pushes back, and what they have to learn or give up.
+- **Process**: How the work flows, where it waits, and what stops.
+- **Technology**: The platforms, the data and the definitions it runs on.
+- **Agentic**: Anything in the new agentic world: which agents, what they do on their own, the tolerance they work within, and who watches them.
+
+Three to five short lines a box, in the person's own words where you can. Under each box, one line for the adaptive part: what has to change in people for that box to work.
+
+Draw it as a visual. Where you can make an artifact or a web page, fill in `canvas.html`: replace every {{…}} (each _LINES with `<li>` items) and keep the credit line. Anywhere else, draw it as a two-by-two table.
+
+## Convene the board
+
+Offer it, don't spring it. If they say yes, play each member in turn: each asks their hardest question about the canvas and says what would change their mind. Then say what you'd change on the canvas, and draw it again.
+
+The board, until they swap anyone (ask):
+
+- The CFO
+- Legal
+- The most skeptical leader in the building
+- Someone whose job it changes
+- Whoever gets the call when it breaks on a Sunday
 
 ## The cards
 
@@ -54,6 +82,7 @@ Use it when someone shares or describes an AI strategy, a pilot, an agent or a r
 
 - **The AI Hype Cycle Trap** (`frameworks/ai-hype-cycle-trap.md`): The AI Hype Cycle Trap is building the impressive AI demo instead of the boring, high-value fix — because demo success and production value are not the same thing, and the gap between them is where budgets go to die.
 - **Usage Is the Receipt** (`frameworks/usage-is-the-receipt.md`): Usage Is the Receipt means the only proof an analytics product worked is whether people actually use it — adoption is the receipt, everything else is a claim.
+- **It Was Never About the Tech** (`frameworks/it-was-never-about-the-tech.md`): It Was Never About the Tech is the observation that analytics transformations fail on politics, people, and principles far more often than on tooling — the technology is rarely the binding constraint.
 
 ---
 

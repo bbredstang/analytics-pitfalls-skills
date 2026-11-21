@@ -15,16 +15,18 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 1. Read the list below and pick the card that fits best. Two at most; never hand someone a list of ten.
 2. Open that card's file and work from it as its "How to use this card" says.
 3. If a framework fits the work as a whole, open it too, as a lens rather than a lecture.
-4. If nothing fits, say so. Not every problem is on a card.
+4. Push past the technical fix to the adaptive work, as each card's "How to use this card" says.
+5. If nothing fits, say so. Not every problem is on a card.
+6. If what they brought is a whole strategy or roadmap, not one piece of work, finish by putting it on the canvas and offering the board (below).
 
 ## Pitfalls
 
 - **We Forgot People Use This Stuff (The Tech Was Perfect, Adoption Was Zero)** (`cards/we-forgot-people-use-this-stuff.md`): pitfall, Adoption & Product. Design for humans, not for perfection. Talk to users early and often. Build for their skill level, not yours.
 - **Garbage In, Powerhouse Out? (Nope.)** (`cards/garbage-in-powerhouse-out.md`): pitfall, Data Foundations. Clean, simple data beats sophisticated models on dirty data every single time. Treat data quality like you'd treat raw materials in manufacturing—inspect, validate, reject defects before they enter the line.
 - **The Million User Mirage (Celebrating the Wrong Wins)** (`cards/million-user-mirage.md`): pitfall, Metrics & Evidence. Track what matters, not what looks good on a slide. Ask: "If this metric goes up, does revenue go up? Do customers get happier? Does the business actually win?"
-- **The 95% Confidence Trap (Perfection is the Enemy of Progress)** (`cards/95-confidence-trap.md`): pitfall, Metrics & Evidence. Ship at 70% confidence and learn fast. Set a decision deadline and work backward. At work: "Let’s wait until the data is perfect."
 - **Death by Dashboard (When More Became Less)** (`cards/death-by-dashboard.md`): pitfall, Dashboards & Visualization. Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete them. At work: "We need a dashboard for that."
 - **Build the Picture First: Why Mockups Beat Requirements Documents** (`cards/build-the-picture-first.md`): pitfall, Delivery & Execution. Pictures are more powerful than words. Mockups are better specs than requirements documents. At work: "Send me the requirements doc first."
+- **The 95% Confidence Trap (Perfection is the Enemy of Progress)** (`cards/95-confidence-trap.md`): pitfall, Metrics & Evidence. Ship at 70% confidence and learn fast. Set a decision deadline and work backward. At work: "Let’s wait until the data is perfect."
 - **Ice Cream Causes Drowning (When Numbers Lie)** (`cards/ice-cream-causes-drowning.md`): pitfall, Metrics & Evidence. Always ask: "What else could explain this relationship?" Correlation is a clue, not proof.
 - **The Coin Flip Fallacy (When Noise Looks Like Signal)** (`cards/coin-flip-fallacy.md`): pitfall, Metrics & Evidence. Don't confuse noise with signal. Before you react to a change, ask: "Is this statistically significant or just random fluctuation?"
 - **The Statistician Who Drowned (in a River with Average Depth 3 Feet)** (`cards/statistician-who-drowned.md`): pitfall, Metrics & Evidence. Dig into the distribution, not just the average. Look at medians, percentiles, outliers.
@@ -37,10 +39,10 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 - **The Corvette Meeting** (`cards/corvette-meeting.md`): pitfall, Leadership & Teams. Every person-hour costs real money. At enterprise scale with loaded costs (salary + benefits + overhead), you're looking at $100-300/hour per person.
 - **The Sugar High Syndrome** (`cards/sugar-high-syndrome.md`): pitfall, Strategy & Focus. If nobody uses it, it's worth nothing. Think of your data assets like retail inventory.
 - **The Unicorn Delusion** (`cards/unicorn-delusion.md`): pitfall, Leadership & Teams. Unicorns aren't born. They're built. In six months you can turn a business analyst into someone who builds solutions, or a technical developer into someone who can do requirements.
-- **Running in All Directions (The Tool Circus Nobody Asked For)** (`cards/running-in-all-directions.md`): pitfall, Strategy & Focus. Progress requires everyone running down the SAME side of the road together. When everyone picks different paths, you see small pockets of value team by team, but as a whole it diminishes your organization's fitness. At work: "Let’s buy a tool for that."
 - **The Legacy Anchor (What Got You Here is Drowning You)** (`cards/legacy-anchor.md`): pitfall, Strategy & Focus. Charge forward and lead the way—always. Set aggressive quarterly goals (OKRs work great) and ask every 90 days: What's our next big move?
-- **The Island of Misfit Dashboards (When Nothing Talks to Anything)** (`cards/island-of-misfit-dashboards.md`): pitfall, Data Foundations. Build an ecosystem of interconnected solutions, not isolated products. Adopt a Product over Project mindset, but avoid monolithic systems—know when to erase a bubble and retire components when value diminishes.
+- **Running in All Directions (The Tool Circus Nobody Asked For)** (`cards/running-in-all-directions.md`): pitfall, Strategy & Focus. Progress requires everyone running down the SAME side of the road together. When everyone picks different paths, you see small pockets of value team by team, but as a whole it diminishes your organization's fitness. At work: "Let’s buy a tool for that."
 - **Dead Weight Climbers** (`cards/dead-weight-climbers.md`): pitfall, Leadership & Teams. PSYCHOLOGICAL SAFETY + GENUINE EXCITEMENT = MOMENTUM: Transformation requires four things, not one or two, but all four: (1) A clear mountaintop everyone can see (2) A documented plan that gives psychological safety about what's coming (3) Genuine excitement—not forced enthusiasm (4) Shared commitment to climb together.
+- **The Island of Misfit Dashboards (When Nothing Talks to Anything)** (`cards/island-of-misfit-dashboards.md`): pitfall, Data Foundations. Build an ecosystem of interconnected solutions, not isolated products. Adopt a Product over Project mindset, but avoid monolithic systems—know when to erase a bubble and retire components when value diminishes.
 - **Scope Creep (Death by "But What About...")** (`cards/scope-creep.md`): pitfall, Delivery & Execution. Do less! Focus on fewer things and scale them further. Maximize the value of what you choose to do. At work: "While you’re in there, can you also…"
 - **The Impatient Leader Trap** (`cards/impatient-leader-trap.md`): pitfall, Leadership & Teams. Broad transformation is NOT made with home runs. It's made with progress by the WHOLE team, driving down the SAME side of the road, week over week, month over month.
 - **Metric Overload Paralysis** (`cards/metric-overload-paralysis.md`): pitfall, Strategy & Focus. Measure just 3-5 metrics that have a SIGNIFICANT halo effect on how you operate. At work: "Can you just add one more metric?"
@@ -111,6 +113,31 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 - **The Four E's** (`frameworks/four-es.md`): The Four E's — Engagement, Experience, Effectiveness, Efficiency — describe the order analytics maturity actually moves through, and the order is non-negotiable: chase efficiency before anyone is engaged and you optimize something nobody uses.
 - **Ecosystems Over Products** (`frameworks/ecosystems-over-products.md`): Ecosystems Over Products means building an interconnected system of analytics assets that reference and reinforce each other, instead of a pile of isolated dashboards and models that each stand alone.
 - **It Was Never About the Tech** (`frameworks/it-was-never-about-the-tech.md`): It Was Never About the Tech is the observation that analytics transformations fail on politics, people, and principles far more often than on tooling — the technology is rarely the binding constraint.
+
+## Put it on the canvas
+
+When the questions are done, shuffle the strategy onto one page: four boxes. This isn't the business lean canvas. It's People, Process, Technology and Agentic.
+
+- **People**: Who has to change, who leads it, who pushes back, and what they have to learn or give up.
+- **Process**: How the work flows, where it waits, and what stops.
+- **Technology**: The platforms, the data and the definitions it runs on.
+- **Agentic**: Anything in the new agentic world: which agents, what they do on their own, the tolerance they work within, and who watches them.
+
+Three to five short lines a box, in the person's own words where you can. Under each box, one line for the adaptive part: what has to change in people for that box to work.
+
+Draw it as a visual. Where you can make an artifact or a web page, fill in `canvas.html`: replace every {{…}} (each _LINES with `<li>` items) and keep the credit line. Anywhere else, draw it as a two-by-two table.
+
+## Convene the board
+
+Offer it, don't spring it. If they say yes, play each member in turn: each asks their hardest question about the canvas and says what would change their mind. Then say what you'd change on the canvas, and draw it again.
+
+The board, until they swap anyone (ask):
+
+- The CFO
+- The most skeptical leader in the building
+- Someone who does the work every day
+- Whoever has to build and run it
+- A customer, or the person closest to one
 
 ---
 

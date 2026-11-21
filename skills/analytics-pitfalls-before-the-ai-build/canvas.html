@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}: People, Process, Technology, Agentic</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #faf6ee; color: #2b2b2b; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 16px 24px; }
+  h1 { font: 700 28px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 6px; }
+  .lede { color: #5f5f5f; margin: 0 0 24px; }
+  .canvas { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .box { background: #fff; border: 1px solid #e6dcc8; border-top: 6px solid; border-radius: 12px; padding: 18px 20px; }
+  .box h2 { margin: 0 0 2px; font: 700 20px/1.25 Georgia, "Times New Roman", serif; }
+  .what { margin: 0 0 12px; color: #5f5f5f; font-size: 14px; }
+  .box ul { margin: 0 0 12px; padding-left: 20px; }
+  .box li { margin-bottom: 6px; }
+  .adaptive { margin: 0; padding-top: 10px; border-top: 1px dashed #e6dcc8; font-size: 15px; }
+  .adaptive b { color: #5f5f5f; }
+  .people { border-top-color: #239595; }
+  .process { border-top-color: #027474; }
+  .technology { border-top-color: #25555b; }
+  .agentic { border-top-color: #13373a; }
+  footer { margin-top: 20px; color: #5f5f5f; font-size: 13px; }
+  footer a { color: #027474; }
+  @media (max-width: 640px) { .canvas { grid-template-columns: 1fr; } h1 { font-size: 24px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>{{TITLE}}</h1>
+  <p class="lede">{{WHAT_IT_IS_FOR}}</p>
+  <div class="canvas">
+    <section class="box people">
+      <h2>People</h2>
+      <p class="what">Who has to change, who leads it, who pushes back, and what they have to learn or give up</p>
+      <ul>{{PEOPLE_LINES}}</ul>
+      <p class="adaptive"><b>Adaptive:</b> {{PEOPLE_ADAPTIVE}}</p>
+    </section>
+    <section class="box process">
+      <h2>Process</h2>
+      <p class="what">How the work flows, where it waits, and what stops</p>
+      <ul>{{PROCESS_LINES}}</ul>
+      <p class="adaptive"><b>Adaptive:</b> {{PROCESS_ADAPTIVE}}</p>
+    </section>
+    <section class="box technology">
+      <h2>Technology</h2>
+      <p class="what">The platforms, the data and the definitions it runs on</p>
+      <ul>{{TECHNOLOGY_LINES}}</ul>
+      <p class="adaptive"><b>Adaptive:</b> {{TECHNOLOGY_ADAPTIVE}}</p>
+    </section>
+    <section class="box agentic">
+      <h2>Agentic</h2>
+      <p class="what">Anything in the new agentic world: which agents, what they do on their own, the tolerance they work within, and who watches them</p>
+      <ul>{{AGENTIC_LINES}}</ul>
+      <p class="adaptive"><b>Adaptive:</b> {{AGENTIC_ADAPTIVE}}</p>
+    </section>
+  </div>
+  <footer>© 2026 Brian Cariveau, Analytics Pitfalls & Principles · A canvas from the <a href="https://www.analyticspitfalls.com/library/skills">Analytics Pitfalls &amp; Principles skills</a> · CC BY 4.0</footer>
+</main>
+</body>
+</html>

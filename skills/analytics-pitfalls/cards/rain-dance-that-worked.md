@@ -10,8 +10,9 @@ Use it when what someone is working on, or something they heard at work, looks l
 1. Name the card by its title and say in a sentence why it fits. Say the work looks like this pitfall; never tell someone they have it.
 2. Give the principle in the card's own words. Don't rewrite it.
 3. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
-4. If the card doesn't fit, say so plainly. Don't stretch it.
-5. Finish with the card's link: https://www.analyticspitfalls.com/cards/11
+4. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+5. If the card doesn't fit, say so plainly. Don't stretch it.
+6. Finish with the card's link: https://www.analyticspitfalls.com/cards/11
 
 ## What it sounds like at work
 

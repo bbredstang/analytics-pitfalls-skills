@@ -16,8 +16,9 @@ Use it when what someone is working on, or something they heard at work, looks l
 1. Name the card by its title and say in a sentence why it fits. Say the work looks like this pitfall; never tell someone they have it.
 2. Give the principle in the card's own words. Don't rewrite it.
 3. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
-4. If the card doesn't fit, say so plainly. Don't stretch it.
-5. Finish with the card's link: https://www.analyticspitfalls.com/cards/72
+4. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+5. If the card doesn't fit, say so plainly. Don't stretch it.
+6. Finish with the card's link: https://www.analyticspitfalls.com/cards/72
 
 ## What it sounds like at work
 
@@ -37,7 +38,7 @@ Stop asking for the deck. Ask for the answer, and what the person would do about
 
 Using AI to build more reports faster gets you micro little efficiencies down the same old path. Throw it at the whole chain instead of one step at a time. Find the real question behind the report, and answer that question directly, with its sources, in seconds.
 
-If you lead people, this change costs nothing: stop asking for the PowerPoint or the Excel file. If you're the one building the same deck every week, make something different once and see what people think. Better yet, make it interactive, a page people can click through and ask questions of. Nobody ever made a better decision because the slide had nicer icons.
+If you lead people, this change costs nothing: stop asking for the PowerPoint or the Excel file. If you're the one building the same deck every week, make something different once and see what people think. Better yet, make it interactive, a page people can click through and ask questions of. Nobody ever did a single thing differently because the slide had nicer icons.
 
 ## The steps
 
@@ -48,7 +49,7 @@ If you lead people, this change costs nothing: stop asking for the PowerPoint or
 
 ## In practice
 
-In her first weeks leading AI at ClassicMotors, Nora Berg kept meeting people who were thrilled that AI could build their PowerPoints. A sales manager cut his quarterly business review deck from two days to an afternoon. A product lead made twelve slides with matching icons from a spreadsheet in nine minutes. Nobody could tell her what decision any of them had changed. In her notebook she wrote: Faster at the old way.
+In her first weeks leading AI at ClassicMotors, Nora Berg kept meeting people who were thrilled that AI could build their PowerPoints. A sales manager cut his quarterly business review deck from two days to an afternoon. A product lead made twelve slides with matching icons from a spreadsheet in nine minutes. Nobody could tell her one thing anyone had done differently because of them. In her notebook she wrote: Faster at the old way.
 
 A young analyst on the reporting team showed her a new weekly report AI had built in an afternoon. "I've got three more in the queue. I can build one a day now." A few months later, the data team counted sixty-one new reports built with AI. Usage on them: about what you'd expect.
 

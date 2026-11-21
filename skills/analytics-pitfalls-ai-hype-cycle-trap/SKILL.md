@@ -15,8 +15,9 @@ Use it as a lens when someone's analytics or AI work touches what it describes.
 
 1. Say which framework you are using and what it asks, in its one-line definition below.
 2. Hold their work up to it: where it already fits, and where it does not. Be specific to their situation.
-3. If one of the cards below names their problem more exactly, use that card as it says.
-4. Finish with the framework's link: https://www.analyticspitfalls.com/frameworks/ai-hype-cycle-trap
+3. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+4. If one of the cards below names their problem more exactly, use that card as it says.
+5. Finish with the framework's link: https://www.analyticspitfalls.com/frameworks/ai-hype-cycle-trap
 
 > The AI Hype Cycle Trap is building the impressive AI demo instead of the boring, high-value fix — because demo success and production value are not the same thing, and the gap between them is where budgets go to die.
 

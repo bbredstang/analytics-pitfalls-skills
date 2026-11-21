@@ -10,12 +10,13 @@ Use it when what someone is working on, or something they heard at work, looks l
 1. Name the card by its title and say in a sentence why it fits. Say the work could use this principle.
 2. Give the principle in the card's own words. Don't rewrite it.
 3. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
-4. If the card doesn't fit, say so plainly. Don't stretch it.
-5. Finish with the card's link: https://www.analyticspitfalls.com/cards/58
+4. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+5. If the card doesn't fit, say so plainly. Don't stretch it.
+6. Finish with the card's link: https://www.analyticspitfalls.com/cards/58
 
 ## The problem
 
-Project kickoff: "Build a sales dashboard." Team immediately opens Tableau. Starts dragging fields. Builds 6 charts. Spends 40 hours. Presents to stakeholders. Response: "This is nice, but it doesn't answer my questions." Why? Because you built data visualizations, not a story. You threw charts at a problem without understanding the narrative. What decision are they making? What question needs answering? What's the tension? The solution? You skipped all that and went straight to building. It's like a manufacturing plant starting production without a blueprint—you'll build something, but probably not what's needed.
+Project kickoff: "Build a sales dashboard." Team immediately opens Tableau. Starts dragging fields. Builds 6 charts. Spends 40 hours. Presents to stakeholders. Response: "This is nice, but it doesn't answer my questions." Why? Because you built data visualizations, not a story. You threw charts at a problem without understanding the narrative. What action will they take? What question needs answering? What's the tension? The solution? You skipped all that and went straight to building. It's like a manufacturing plant starting production without a blueprint—you'll build something, but probably not what's needed.
 
 ## The principle
 

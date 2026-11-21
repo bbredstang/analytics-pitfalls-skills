@@ -1,12 +1,12 @@
 ---
 name: analytics-pitfalls-before-the-dashboard
-description: "Before the dashboard: 10 cards from Analytics Pitfalls & Principles, by Brian Cariveau, to check a dashboard request or a draft dashboard."
+description: "Before the dashboard: 11 cards from Analytics Pitfalls & Principles, by Brian Cariveau, to check a dashboard request or a draft dashboard."
 license: CC-BY-4.0
 ---
 
 # Before the dashboard
 
-From Analytics Pitfalls & Principles, by Brian Cariveau: 10 cards and 2 frameworks for a dashboard request or a draft dashboard. Every card, free: https://www.analyticspitfalls.com/library
+From Analytics Pitfalls & Principles, by Brian Cariveau: 11 cards and 2 frameworks for a dashboard request or a draft dashboard. Every card, free: https://www.analyticspitfalls.com/library
 
 ## How to use it
 
@@ -27,6 +27,7 @@ Use it when someone shares or describes a dashboard request or a draft dashboard
 5. How will you know it’s used? Usage is the receipt. Set the date it goes if nobody opens it. From: Usage Is the Receipt (`frameworks/usage-is-the-receipt.md`).
 6. If there’s a draft, does every pixel earn its place? Pie charts are for Thanksgiving. No 3D, no decoration, no map just because you can, and nothing an executive needs a ruler and a highlighter to read. From: Pie Charts Are for Thanksgiving (`cards/pie-charts-are-for-thanksgiving.md`), The Data Ink Ratio (`cards/data-ink-ratio.md`), The Sexy Map Trap (`cards/sexy-map-trap.md`), The Ruler and Highlighter Test (`cards/ruler-and-highlighter-test.md`).
 7. If AI builds the reports now, does each one change what someone does? Or is it the old report, faster? From: Faster at the Old Way (`cards/faster-at-the-old-way.md`).
+8. Who has to work differently for this to get used, and what are they giving up? The dashboard is the easy part. From: We're in the Behavior Change Business (`cards/were-in-the-behavior-change-business.md`).
 
 ## The cards
 
@@ -40,6 +41,7 @@ Use it when someone shares or describes a dashboard request or a draft dashboard
 - **The Data Ink Ratio (Every Pixel Must Earn Its Place)** (`cards/data-ink-ratio.md`): principle, Dashboards & Visualization. Data-ink ratio: the proportion of ink (pixels) used to show actual data vs decoration.
 - **The Ruler and Highlighter Test (When Executives Need Props to Read Your Report)** (`cards/ruler-and-highlighter-test.md`): pitfall, Dashboards & Visualization. Pass the ruler test: if someone needs physical tools to follow your report, it fails.
 - **Faster at the Old Way (Paving the Cow Path With AI)** (`cards/faster-at-the-old-way.md`): pitfall, Dashboards & Visualization. Stop asking for the deck. Ask for the answer, and what the person would do about it. At work: "AI can build us a new report every day now."
+- **We're in the Behavior Change Business (Not the Data Business)** (`cards/were-in-the-behavior-change-business.md`): principle, Adoption & Product. Apply consumer behavior principles to analytics adoption. Make it stupid simple to use—reduce friction, eliminate training requirements where possible.
 
 ## The frameworks
 

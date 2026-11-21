@@ -10,8 +10,9 @@ Use it when what someone is working on, or something they heard at work, looks l
 1. Name the card by its title and say in a sentence why it fits. Say the work looks like this pitfall; never tell someone they have it.
 2. Give the principle in the card's own words. Don't rewrite it.
 3. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
-4. If the card doesn't fit, say so plainly. Don't stretch it.
-5. Finish with the card's link: https://www.analyticspitfalls.com/cards/1
+4. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+5. If the card doesn't fit, say so plainly. Don't stretch it.
+6. Finish with the card's link: https://www.analyticspitfalls.com/cards/1
 
 ## What it sounds like at work
 
@@ -23,7 +24,7 @@ You know the drill. Leadership asks for a dashboard. You build one. Then another
 
 ## The principle
 
-Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete them. Track usage like a hawk and if something hasn't been opened in 90 days, it's gone. Focus on the 3-5 dashboards that actually drive decisions and make them stupidly simple to use. Think manufacturing: every dashboard is a product on your line. If it's not selling (getting used), stop making it. Free up that capacity for what matters. The magic happens when you go from 47 mediocre dashboards to 5 beloved ones. Watch adoption soar when people can actually find what they need.
+Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete them. Track usage like a hawk and if something hasn't been opened in 90 days, it's gone. Focus on the 3-5 dashboards people actually act on and make them stupidly simple to use. Think manufacturing: every dashboard is a product on your line. If it's not selling (getting used), stop making it. Free up that capacity for what matters. The magic happens when you go from 47 mediocre dashboards to 5 beloved ones. Watch adoption soar when people can actually find what they need.
 
 ## The steps
 
@@ -33,7 +34,7 @@ Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete the
 
 ## In practice
 
-A retail analytics team had 52 dashboards. Leadership complained nobody used data to make decisions. They audited usage: 39 dashboards had zero opens in 6 months. They killed all 39 in one day. Consolidated the remaining 13 into 5 core products: Sales Performance, Inventory Health, Customer Behavior, Store Operations, and Executive Summary. Each one? Stupidly simple. One page, key metrics, clear actions. Adoption jumped from 12% to 71% in 8 weeks. The team freed up 40% of their time from maintenance hell and spent it making those 5 dashboards magical. Sales leaders started every meeting with the dashboards. CFO said "I finally understand our business." That's what happens when you kill the waste.
+A retail analytics team had 52 dashboards. Leadership complained nobody acted on the data. They audited usage: 39 dashboards had zero opens in 6 months. They killed all 39 in one day. Consolidated the remaining 13 into 5 core products: Sales Performance, Inventory Health, Customer Behavior, Store Operations, and Executive Summary. Each one? Stupidly simple. One page, key metrics, clear actions. Adoption jumped from 12% to 71% in 8 weeks. The team freed up 40% of their time from maintenance hell and spent it making those 5 dashboards magical. Sales leaders started every meeting with the dashboards. CFO said "I finally understand our business." That's what happens when you kill the waste.
 
 ---
 

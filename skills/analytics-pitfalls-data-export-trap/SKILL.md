@@ -16,8 +16,9 @@ Use it when what someone is working on, or something they heard at work, looks l
 1. Name the card by its title and say in a sentence why it fits. Say the work looks like this pitfall; never tell someone they have it.
 2. Give the principle in the card's own words. Don't rewrite it.
 3. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
-4. If the card doesn't fit, say so plainly. Don't stretch it.
-5. Finish with the card's link: https://www.analyticspitfalls.com/cards/52
+4. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+5. If the card doesn't fit, say so plainly. Don't stretch it.
+6. Finish with the card's link: https://www.analyticspitfalls.com/cards/52
 
 ## What it sounds like at work
 
@@ -25,7 +26,7 @@ Use it when what someone is working on, or something they heard at work, looks l
 
 ## The problem
 
-You built a beautiful dashboard. Charts, filters, drill-downs. Proud of it. Then you check usage analytics: 80% of users just click "Export to Excel" and leave. They're using your $500K BI platform as a glorified CSV generator. They do the actual analysis in Excel, not your dashboard. Why? Because your viz doesn't answer their question—it just dumps data. They rebuild everything in pivot tables anyway. It's like building a fancy restaurant where everyone orders takeout. You're not delivering insights—you're delivering raw ingredients.
+You built a beautiful dashboard. Charts, filters, drill-downs. Proud of it. Then you check usage analytics: 80% of users just click "Export to Excel" and leave. They're using your $500K BI platform as a glorified CSV generator. They do the actual analysis in Excel, not your dashboard. Why? Because your viz doesn't answer their question—it just dumps data. They rebuild everything in pivot tables anyway. It's like building a fancy restaurant where everyone orders takeout. You're not delivering anything people act on—you're delivering raw ingredients.
 
 ## The principle
 
@@ -67,7 +68,7 @@ Don't force dashboards on use cases that need raw data.
 3. **Monitor Export Rate as Product Health**
 
 Track export rate monthly:
-- <20% = healthy (insights delivered in-product)
+- <20% = healthy (people act right in the product)
 - 20-40% = investigate (might need fixes)
 - >40% = problem (redesign or deprecate)
 

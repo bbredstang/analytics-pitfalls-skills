@@ -10,8 +10,9 @@ Use it when what someone is working on, or something they heard at work, looks l
 1. Name the card by its title and say in a sentence why it fits. Say the work could use this principle.
 2. Give the principle in the card's own words. Don't rewrite it.
 3. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
-4. If the card doesn't fit, say so plainly. Don't stretch it.
-5. Finish with the card's link: https://www.analyticspitfalls.com/cards/57
+4. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+5. If the card doesn't fit, say so plainly. Don't stretch it.
+6. Finish with the card's link: https://www.analyticspitfalls.com/cards/57
 
 ## The problem
 
@@ -64,7 +65,7 @@ Bonus: Cleaner charts are faster to build and easier to update.
 
 ## In practice
 
-A financial services team had executive dashboards with 3D bar charts, gradient backgrounds, decorative logos on every chart, grid lines every 2 units, shadows on every element. It looked "professional." User testing revealed: executives took 45 seconds average to find a specific number. Charts were pretty but hard to read. They applied data-ink ratio principle: removed 3D (flat bars only), removed gradients (solid colors), removed decorative elements, reduced grid lines to 0 (just axis), removed shadows. Same data, cleaner presentation. Re-tested: executives found numbers in 8 seconds (82% reduction). More importantly: they noticed trends instantly because nothing competed for attention. One exec said: "Finally, I can just look at the data instead of decoding the chart." The team tracked time-to-insight: dropped 65% across all dashboards. Less decoration = more comprehension.
+A financial services team had executive dashboards with 3D bar charts, gradient backgrounds, decorative logos on every chart, grid lines every 2 units, shadows on every element. It looked "professional." User testing revealed: executives took 45 seconds average to find a specific number. Charts were pretty but hard to read. They applied data-ink ratio principle: removed 3D (flat bars only), removed gradients (solid colors), removed decorative elements, reduced grid lines to 0 (just axis), removed shadows. Same data, cleaner presentation. Re-tested: executives found numbers in 8 seconds (82% reduction). More importantly: they noticed trends instantly because nothing competed for attention. One exec said: "Finally, I can just look at the data instead of decoding the chart." The team tracked time-to-action: dropped 65% across all dashboards. Less decoration = more comprehension.
 
 ---
 

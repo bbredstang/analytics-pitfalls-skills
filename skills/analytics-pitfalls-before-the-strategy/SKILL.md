@@ -16,7 +16,8 @@ Use it when someone shares or describes a data strategy, a BI strategy or a road
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
-5. Finish with the links of the cards you used.
+5. Then put it on the canvas, and offer the board (below).
+6. Finish with the links of the cards you used.
 
 ## Brian Cariveau's questions
 
@@ -27,7 +28,33 @@ Use it when someone shares or describes a data strategy, a BI strategy or a road
 5. Do the numbers agree? If Finance has a different number, fix the definitions before anything else. From: The Wild West of Data (`cards/wild-west-of-data.md`), Seven Versions of the Truth (`cards/seven-versions-of-the-truth.md`).
 6. Is it a forest or a tree farm? Will the pieces feed each other, or sit on their own islands? From: The Island of Misfit Dashboards (`cards/island-of-misfit-dashboards.md`), Ecosystems Over Products (`frameworks/ecosystems-over-products.md`).
 7. What is it keeping only because it worked before? What got you here might be what’s drowning you. From: The Legacy Anchor (`cards/legacy-anchor.md`).
-8. Who has to change, and who’s going to push back? It was never about the tech. From: It Was Never About the Tech (`frameworks/it-was-never-about-the-tech.md`).
+8. Who has to change, and who’s going to push back? It was never about the tech. Get past the if-then fixes: what do people have to learn, believe or give up for this to stick? From: It Was Never About the Tech (`frameworks/it-was-never-about-the-tech.md`).
+9. Who’s on your board? Before this goes to anyone, convene a few people who’d poke holes in it, and hear them out now. It’s a lot cheaper than hearing it later.
+
+## Put it on the canvas
+
+When the questions are done, shuffle the strategy onto one page: four boxes. This isn't the business lean canvas. It's People, Process, Technology and Agentic.
+
+- **People**: Who has to change, who leads it, who pushes back, and what they have to learn or give up.
+- **Process**: How the work flows, where it waits, and what stops.
+- **Technology**: The platforms, the data and the definitions it runs on.
+- **Agentic**: Anything in the new agentic world: which agents, what they do on their own, the tolerance they work within, and who watches them.
+
+Three to five short lines a box, in the person's own words where you can. Under each box, one line for the adaptive part: what has to change in people for that box to work.
+
+Draw it as a visual. Where you can make an artifact or a web page, fill in `canvas.html`: replace every {{…}} (each _LINES with `<li>` items) and keep the credit line. Anywhere else, draw it as a two-by-two table.
+
+## Convene the board
+
+Offer it, don't spring it. If they say yes, play each member in turn: each asks their hardest question about the canvas and says what would change their mind. Then say what you'd change on the canvas, and draw it again.
+
+The board, until they swap anyone (ask):
+
+- The CFO
+- The most skeptical leader in the building
+- Someone who does the work every day
+- Whoever has to build and run it
+- A customer, or the person closest to one
 
 ## The cards
 
