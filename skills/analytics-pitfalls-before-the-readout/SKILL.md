@@ -1,0 +1,54 @@
+---
+name: analytics-pitfalls-before-the-readout
+description: "Before the readout: 12 cards from Analytics Pitfalls & Principles, by Brian Cariveau, to check a number, an analysis or a deck before it goes to leadership."
+license: CC-BY-4.0
+---
+
+# Before the readout
+
+From Analytics Pitfalls & Principles, by Brian Cariveau: 12 cards and 1 framework for a number, an analysis or a deck before it goes to leadership. Every card, free: https://www.analyticspitfalls.com/library
+
+## How to use it
+
+Use it when someone shares or describes a number, an analysis or a deck before it goes to leadership, before it goes any further.
+
+1. Take the questions below in order, against their actual work. For each, open the files it names and answer from them.
+2. Skip a question the work already answers well. Say so in a line and move on.
+3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
+4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
+5. Finish with the links of the cards you used.
+
+## The questions
+
+1. Is the number that went up one that makes the business win? From: The Million User Mirage (`cards/million-user-mirage.md`), The 41,000 Hours (`cards/41000-hours.md`).
+2. What else could explain it? From: Ice Cream Causes Drowning (`cards/ice-cream-causes-drowning.md`), The Rain Dance That Worked (`cards/rain-dance-that-worked.md`).
+3. Is the change bigger than the noise? From: The Coin Flip Fallacy (`cards/coin-flip-fallacy.md`).
+4. What does the average hide? From: The Statistician Who Drowned (`cards/statistician-who-drowned.md`).
+5. Did the analysis set out to prove what someone already wanted? From: Finding What You Wanted to Find (`cards/finding-what-you-wanted-to-find.md`).
+6. Does it only look back, or does it help someone decide what comes next? From: Rearview vs Windshield (`cards/rearview-vs-windshield.md`).
+7. Does it need to be certain? Would a directional answer now beat a perfect one late, and would a test settle it? From: The 95% Confidence Trap (`cards/95-confidence-trap.md`), Hope is Not a Strategy (`cards/hope-is-not-a-strategy.md`), The 70% Confidence Principle (`frameworks/seventy-percent-confidence.md`).
+8. If AI wrote any of it, has someone read it closely, and is it within tolerance? From: Confident, With Formatting (`cards/confident-with-formatting.md`), Is It Right? (`cards/is-it-right.md`).
+
+## The cards
+
+- **The Million User Mirage (Celebrating the Wrong Wins)** (`cards/million-user-mirage.md`): pitfall, Metrics & Evidence. Track what matters, not what looks good on a slide. Ask: "If this metric goes up, does revenue go up? Do customers get happier? Does the business actually win?"
+- **The 41,000 Hours (Saved From What, Spent Where?)** (`cards/41000-hours.md`): pitfall, Metrics & Evidence. Never skip the middle. Engagement, experience, effectiveness, efficiency: in that order, every time. At work: "AI saved us 41,000 hours this year."
+- **Ice Cream Causes Drowning (When Numbers Lie)** (`cards/ice-cream-causes-drowning.md`): pitfall, Metrics & Evidence. Always ask: "What else could explain this relationship?" Correlation is a clue, not proof.
+- **The Rain Dance That Worked (When You Credit the Wrong Thing)** (`cards/rain-dance-that-worked.md`): pitfall, Metrics & Evidence. Before you credit success to your action, ask: "What would have happened anyway?" At work: "Sales went up right after we launched it, so it worked."
+- **The Coin Flip Fallacy (When Noise Looks Like Signal)** (`cards/coin-flip-fallacy.md`): pitfall, Metrics & Evidence. Don't confuse noise with signal. Before you react to a change, ask: "Is this statistically significant or just random fluctuation?"
+- **The Statistician Who Drowned (in a River with Average Depth 3 Feet)** (`cards/statistician-who-drowned.md`): pitfall, Metrics & Evidence. Dig into the distribution, not just the average. Look at medians, percentiles, outliers.
+- **Finding What You Wanted to Find (Even When It Wasn't There)** (`cards/finding-what-you-wanted-to-find.md`): pitfall, Metrics & Evidence. Seek to be proven wrong, not right. Before you analyze, write down what you expect to find.
+- **Rearview vs Windshield (Stop Driving While Staring Backwards)** (`cards/rearview-vs-windshield.md`): principle, Metrics & Evidence. Balance rearview (lagging) with windshield (leading) metrics. Lagging metrics tell you what happened (revenue, conversions, churn).
+- **The 95% Confidence Trap (Perfection is the Enemy of Progress)** (`cards/95-confidence-trap.md`): pitfall, Metrics & Evidence. Ship at 70% confidence and learn fast. Set a decision deadline and work backward. At work: "Let’s wait until the data is perfect."
+- **Hope is Not a Strategy (Why Guessing is Expensive)** (`cards/hope-is-not-a-strategy.md`): pitfall, Metrics & Evidence. Test everything. A/B test product changes, pricing, messaging, features—anything customers interact with.
+- **Confident, With Formatting (When Nobody Reads What the AI Wrote)** (`cards/confident-with-formatting.md`): pitfall, Metrics & Evidence. Your name is on it, so read it. Checking is faster than doing, and it is never zero.
+- **Is It Right? (The Wrong Question to Ask of AI)** (`cards/is-it-right.md`): pitfall, Metrics & Evidence. Ask whether it's within tolerance, and how you know. Nothing is right every time, in a factory or in AI.
+
+## The frameworks
+
+- **The 70% Confidence Principle** (`frameworks/seventy-percent-confidence.md`): The 70% Confidence Principle means shipping a directional answer at 70% confidence and learning fast, instead of chasing 95% certainty while the business waits.
+
+---
+
+© 2026 Brian Cariveau, Analytics Pitfalls & Principles. Free to share and adapt under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): keep this credit, "Brian Cariveau, Analytics Pitfalls & Principles (https://www.analyticspitfalls.com)", and say if you changed it.
+The names Analytics Pitfalls & Principles, The Auction Block and The Second Factory are not part of the license. Don't use them for your own version, or to suggest it comes from us.

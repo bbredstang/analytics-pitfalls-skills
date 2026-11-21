@@ -1,0 +1,61 @@
+---
+name: analytics-pitfalls-before-the-ai-build
+description: "Before the AI build: 18 cards from Analytics Pitfalls & Principles, by Brian Cariveau, to check an AI strategy, a pilot, an agent or a rollout."
+license: CC-BY-4.0
+---
+
+# Before the AI build
+
+From Analytics Pitfalls & Principles, by Brian Cariveau: 18 cards and 2 frameworks for an AI strategy, a pilot, an agent or a rollout. Every card, free: https://www.analyticspitfalls.com/library
+
+## How to use it
+
+Use it when someone shares or describes an AI strategy, a pilot, an agent or a rollout, before it goes any further.
+
+1. Take the questions below in order, against their actual work. For each, open the files it names and answer from them.
+2. Skip a question the work already answers well. Say so in a line and move on.
+3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
+4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
+5. Finish with the links of the cards you used.
+
+## The questions
+
+1. What problem does it fix, how often does that problem cost money, and what do people do about it today? Compare it to that, not to nothing. From: The Demo Trap (`cards/demo-trap.md`), The AI Hype Cycle Trap (`frameworks/ai-hype-cycle-trap.md`).
+2. How will anyone know that work changed? Not how many logged in, and not how many hours a survey says were saved. From: Licenses and Lip Service (`cards/licenses-and-lip-service.md`), The 41,000 Hours (`cards/41000-hours.md`), Usage Is the Receipt (`frameworks/usage-is-the-receipt.md`).
+3. Is it aimed at something big enough to matter? From: The Cup of Coffee Wish (`cards/cup-of-coffee-wish.md`).
+4. What data does it read, and has anyone defined it? From: Planned Isn't In Stock (`cards/planned-isnt-in-stock.md`), Four Hundred and Twelve Boxes (`cards/four-hundred-and-twelve-boxes.md`).
+5. How will its answers be checked, and who watches it once it runs on its own? From: Is It Right? (`cards/is-it-right.md`), Legal Reads Everything (`cards/legal-reads-everything.md`), The Runaway Weekend (`cards/runaway-weekend.md`), The Factory With the Lights Off (`cards/factory-with-the-lights-off.md`).
+6. Will anyone read what it writes before it goes out? From: Confident, With Formatting (`cards/confident-with-formatting.md`).
+7. Does it make one step faster while the work still waits between steps, or make the old way faster? From: Faster Saws (`cards/faster-saws.md`), The Porsche at the Front (`cards/porsche-at-the-front.md`), Faster at the Old Way (`cards/faster-at-the-old-way.md`).
+8. Who does it depend on, and who does it start with? From: The Line Outside Elmer's Door (`cards/line-outside-elmers-door.md`), Everything Runs Through You (`cards/everything-runs-through-you.md`), The Back Row (`cards/back-row.md`), The Drain at the Top (`cards/drain-at-the-top.md`).
+
+## The cards
+
+- **The Demo Trap** (`cards/demo-trap.md`): pitfall, Adoption & Product. Demo success ≠ production value. The most impressive technology often solves problems that don't exist, while boring solutions fix problems that cost real money every day. At work: "The AI demo went great. Leadership loved it."
+- **Licenses and Lip Service (When Everyone Logs In and Nobody Changes)** (`cards/licenses-and-lip-service.md`): pitfall, Adoption & Product. Usage is the receipt. Logins, licenses and course completions are promises. Daily use on real work is proof. At work: "Everyone’s got a license, and almost everyone finished the training."
+- **The 41,000 Hours (Saved From What, Spent Where?)** (`cards/41000-hours.md`): pitfall, Metrics & Evidence. Never skip the middle. Engagement, experience, effectiveness, efficiency: in that order, every time. At work: "AI saved us 41,000 hours this year."
+- **The Cup of Coffee Wish (Asking a Genie for Small Things)** (`cards/cup-of-coffee-wish.md`): pitfall, Adoption & Product. Ask for the big thing first. Tell it what you want at the end, not the steps to get there, and then check everything.
+- **Planned Isn't In Stock (When an Agent Reads Data Nobody Defined)** (`cards/planned-isnt-in-stock.md`): pitfall, Data Foundations. Customer-facing agents read only from defined, trusted data. If a word matters to the business, write down what it means before an agent acts on it. At work: "Just point the agent at the shared drive."
+- **Four Hundred and Twelve Boxes (Building the AI Ontology From the Top Down)** (`cards/four-hundred-and-twelve-boxes.md`): pitfall, Data Foundations. Simple for humans is simple for agents. Build the map one trusted domain at a time, in words a new hire would understand.
+- **Is It Right? (The Wrong Question to Ask of AI)** (`cards/is-it-right.md`): pitfall, Metrics & Evidence. Ask whether it's within tolerance, and how you know. Nothing is right every time, in a factory or in AI.
+- **Legal Reads Everything (When Checking Every Answer Catches Less)** (`cards/legal-reads-everything.md`): pitfall, Delivery & Execution. Decide what safe enough looks like before you need it. Check by risk, not by habit.
+- **The Runaway Weekend (From Checking Every Email to Checking None)** (`cards/runaway-weekend.md`): pitfall, Delivery & Execution. In the loop, then on the loop, then learning loops. Never from a human approving every step to nobody at all. At work: "It’s been perfect for three weeks. We can stop checking it."
+- **The Factory With the Lights Off (When Nobody Can See the Agents)** (`cards/factory-with-the-lights-off.md`): pitfall, Strategy & Focus. Turn the lights on. Every agent and shared skill goes on a screen, with an owner, a backup and a usage count. At work: "I built my own agent for that."
+- **Confident, With Formatting (When Nobody Reads What the AI Wrote)** (`cards/confident-with-formatting.md`): pitfall, Metrics & Evidence. Your name is on it, so read it. Checking is faster than doing, and it is never zero.
+- **Faster Saws (Every Step Got Faster, and the Customer Still Waits)** (`cards/faster-saws.md`): pitfall, Delivery & Execution. Faster stations aren't a faster factory. Walk one real order through the business, color the work blue and the waiting red, and the red wins by a mile almost every time.
+- **The Porsche at the Front (When the Digital Side Outruns the Factory)** (`cards/porsche-at-the-front.md`): pitfall, Strategy & Focus. Put the slowest car at the front. The whole system goes as fast as its slowest step, so let that step set the pace for everything.
+- **Faster at the Old Way (Paving the Cow Path With AI)** (`cards/faster-at-the-old-way.md`): pitfall, Dashboards & Visualization. Stop asking for the deck. Ask for the answer, and what the person would do about it. At work: "AI can build us a new report every day now."
+- **The Line Outside Elmer's Door (When the Whole Plan Waits on One Expert)** (`cards/line-outside-elmers-door.md`): pitfall, Leadership & Teams. Codify your Brent. Write down what's in their head, in plain English, and give it to everyone. At work: "Ask Dave. He’s the only one who knows how it works."
+- **Everything Runs Through You (When the AI Lead Becomes the Bottleneck)** (`cards/everything-runs-through-you.md`): pitfall, Leadership & Teams. One person is one tap. If every path to the new way of working runs through you, the first Brent to codify is you.
+- **The Back Row (When Only the Enthusiasts Stand Up)** (`cards/back-row.md`): pitfall, Adoption & Product. It moves from the front row. When someone people watch stands up, the room follows.
+- **The Drain at the Top (When the Boss Still Wants the Old Report)** (`cards/drain-at-the-top.md`): pitfall, Leadership & Teams. The drain goes all the way to the top. If you want to change what hundreds of people do, change what their leaders ask for.
+
+## The frameworks
+
+- **The AI Hype Cycle Trap** (`frameworks/ai-hype-cycle-trap.md`): The AI Hype Cycle Trap is building the impressive AI demo instead of the boring, high-value fix — because demo success and production value are not the same thing, and the gap between them is where budgets go to die.
+- **Usage Is the Receipt** (`frameworks/usage-is-the-receipt.md`): Usage Is the Receipt means the only proof an analytics product worked is whether people actually use it — adoption is the receipt, everything else is a claim.
+
+---
+
+© 2026 Brian Cariveau, Analytics Pitfalls & Principles. Free to share and adapt under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): keep this credit, "Brian Cariveau, Analytics Pitfalls & Principles (https://www.analyticspitfalls.com)", and say if you changed it.
+The names Analytics Pitfalls & Principles, The Auction Block and The Second Factory are not part of the license. Don't use them for your own version, or to suggest it comes from us.
