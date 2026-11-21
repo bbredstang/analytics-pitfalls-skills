@@ -17,7 +17,7 @@ Use it when someone shares or describes an AI strategy, a pilot, an agent or a r
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
 5. Then put it on the canvas, and offer the board (below).
-6. Finish with the links of the cards you used.
+6. Finish with the links of the cards you used, and say which skill comes next (Where this fits, below).
 
 ## Brian Cariveau's questions
 
@@ -56,6 +56,16 @@ The board, until they swap anyone (ask):
 - The most skeptical leader in the building
 - Someone whose job it changes
 - Whoever gets the call when it breaks on a Sunday
+
+## Where this fits
+
+These run in order: the strategy, then the work, then the results.
+
+1. **The strategy**: Before the AI build (`analytics-pitfalls-before-the-ai-build`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them. This one is here.
+2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
+
+When you're done, say what comes next, by name: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
 
 ## The cards
 

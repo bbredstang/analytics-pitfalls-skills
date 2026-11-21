@@ -4,6 +4,26 @@ Free skills for Claude, ChatGPT and Gemini, made from the 76 pitfall and princip
 
 A skill is a file your AI keeps, so it knows a card whenever your work runs into it.
 
+## How to use these skills
+
+1. **Add the whole set, and the one for the moment you’re in.** The whole set knows every card. The moment skills go deeper, one question at a time.
+2. **Bring the real thing.** Paste the draft, the request, the deck or the numbers. They work on your work, not on theory.
+3. **Say what you’re doing.** Name the skill if you like, or just say what it is. The examples below work.
+4. **Answer the questions.** It asks Brian Cariveau’s questions in order, skips the ones your work already answers, then names the one or two cards that matter most.
+5. **For a strategy, expect a canvas and a board.** It puts the strategy on one page (People, Process, Technology, Agentic), then offers a board of skeptics to poke holes in it.
+6. **Go in order.** The strategy, then each dashboard it calls for, then the readout. Each skill tells you what comes next.
+
+Things to say once a skill is in:
+
+- "We’re about to pilot an agent that answers customer emails. Poke holes in it.": Before the AI build (`analytics-pitfalls-before-the-ai-build`)
+- "Here’s our data strategy draft. Run Before the data strategy on it.": Before the data strategy (`analytics-pitfalls-before-the-data-strategy`)
+- "Here’s next year’s reporting roadmap. What would Brian ask?": Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`)
+- "Sales wants a new pipeline dashboard. Check it before we build anything.": Before the dashboard (`analytics-pitfalls-before-the-dashboard`)
+- "Here’s the deck for Thursday’s readout. What’s it hiding?": Before the readout (`analytics-pitfalls-before-the-readout`)
+- "Someone just told me the AI demo went great. Which card is that?": the whole set (`analytics-pitfalls`)
+
+If you ask your AI how to use them, the whole set answers from these same steps.
+
 ## Add one
 
 - **Claude** (a paid plan): Customize, Skills, +, Upload a skill. Pick the skill's .zip from [the skills page](https://www.analyticspitfalls.com/library/skills).
@@ -17,9 +37,18 @@ A skill is a file your AI keeps, so it knows a card whenever your work runs into
 |---|---|---|
 | [`analytics-pitfalls`](skills/analytics-pitfalls/SKILL.md) | Analytics Pitfalls & Principles | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls.zip) |
 | [`analytics-pitfalls-before-the-ai-build`](skills/analytics-pitfalls-before-the-ai-build/SKILL.md) | Before the AI build | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls-before-the-ai-build.zip) |
+| [`analytics-pitfalls-before-the-data-strategy`](skills/analytics-pitfalls-before-the-data-strategy/SKILL.md) | Before the data strategy | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls-before-the-data-strategy.zip) |
+| [`analytics-pitfalls-before-the-bi-strategy`](skills/analytics-pitfalls-before-the-bi-strategy/SKILL.md) | Before the BI strategy | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls-before-the-bi-strategy.zip) |
 | [`analytics-pitfalls-before-the-dashboard`](skills/analytics-pitfalls-before-the-dashboard/SKILL.md) | Before the dashboard | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls-before-the-dashboard.zip) |
 | [`analytics-pitfalls-before-the-readout`](skills/analytics-pitfalls-before-the-readout/SKILL.md) | Before the readout | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls-before-the-readout.zip) |
-| [`analytics-pitfalls-before-the-strategy`](skills/analytics-pitfalls-before-the-strategy/SKILL.md) | Before the strategy | [.zip](https://www.analyticspitfalls.com/library/skills/analytics-pitfalls-before-the-strategy.zip) |
+
+## In what order
+
+The skills for a moment at work run in order, the way a spec comes before a plan before the build: the strategy, then the work, then the results. Each one says, when it finishes, which comes next. The cards and frameworks have no order: use them whenever one fits.
+
+1. **The strategy**: `analytics-pitfalls-before-the-ai-build`, `analytics-pitfalls-before-the-data-strategy`, `analytics-pitfalls-before-the-bi-strategy`. Pick the one you’re writing. They sit side by side; there’s no order between them.
+2. **The work**: `analytics-pitfalls-before-the-dashboard`. Once for each dashboard the strategy calls for.
+3. **The results**: `analytics-pitfalls-before-the-readout`. When the first numbers go to leadership.
 
 ## The frameworks
 

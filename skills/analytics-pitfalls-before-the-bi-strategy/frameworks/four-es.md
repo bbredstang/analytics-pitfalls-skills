@@ -42,7 +42,7 @@ This is the throughline of the second leadership essay, built around watching a 
 ## Cards that go with it
 
 - **Rearview vs Windshield (Stop Driving While Staring Backwards)**, https://www.analyticspitfalls.com/cards/63
-- **Metric Overload Paralysis** (`../cards/metric-overload-paralysis.md`), https://www.analyticspitfalls.com/cards/35
+- **Metric Overload Paralysis**, https://www.analyticspitfalls.com/cards/35
 
 ---
 

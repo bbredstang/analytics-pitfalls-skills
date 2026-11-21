@@ -139,6 +139,34 @@ The board, until they swap anyone (ask):
 - Whoever has to build and run it
 - A customer, or the person closest to one
 
+## If someone asks how to use these skills
+
+Answer from this, in a few lines, then offer to start on their actual work.
+
+1. **Add the whole set, and the one for the moment you’re in.** The whole set knows every card. The moment skills go deeper, one question at a time.
+2. **Bring the real thing.** Paste the draft, the request, the deck or the numbers. They work on your work, not on theory.
+3. **Say what you’re doing.** Name the skill if you like, or just say what it is. The examples below work.
+4. **Answer the questions.** It asks Brian Cariveau’s questions in order, skips the ones your work already answers, then names the one or two cards that matter most.
+5. **For a strategy, expect a canvas and a board.** It puts the strategy on one page (People, Process, Technology, Agentic), then offers a board of skeptics to poke holes in it.
+6. **Go in order.** The strategy, then each dashboard it calls for, then the readout. Each skill tells you what comes next.
+
+Things they can say:
+
+- "We’re about to pilot an agent that answers customer emails. Poke holes in it.": Before the AI build (`analytics-pitfalls-before-the-ai-build`)
+- "Here’s our data strategy draft. Run Before the data strategy on it.": Before the data strategy (`analytics-pitfalls-before-the-data-strategy`)
+- "Here’s next year’s reporting roadmap. What would Brian ask?": Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`)
+- "Sales wants a new pipeline dashboard. Check it before we build anything.": Before the dashboard (`analytics-pitfalls-before-the-dashboard`)
+- "Here’s the deck for Thursday’s readout. What’s it hiding?": Before the readout (`analytics-pitfalls-before-the-readout`)
+- "Someone just told me the AI demo went great. Which card is that?": the whole set (`analytics-pitfalls`)
+
+## The skills for a moment at work
+
+This skill works any time. When someone is in the middle of a strategy, a dashboard or a readout, these go deeper, and they run in order: the strategy, then the work, then the results. Suggest the one that fits, by name.
+
+1. **The strategy**: Before the AI build (`analytics-pitfalls-before-the-ai-build`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them.
+2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
+
 ---
 
 © 2026 Brian Cariveau, Analytics Pitfalls & Principles. Free to share and adapt under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): keep this credit, "Brian Cariveau, Analytics Pitfalls & Principles (https://www.analyticspitfalls.com)", and say if you changed it.

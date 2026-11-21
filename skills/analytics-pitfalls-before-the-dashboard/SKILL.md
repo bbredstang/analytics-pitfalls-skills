@@ -16,7 +16,7 @@ Use it when someone shares or describes a dashboard request or a draft dashboard
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
-5. Finish with the links of the cards you used.
+5. Finish with the links of the cards you used, and say which skill comes next (Where this fits, below).
 
 ## Brian Cariveau's questions
 
@@ -28,6 +28,16 @@ Use it when someone shares or describes a dashboard request or a draft dashboard
 6. If there’s a draft, does every pixel earn its place? Pie charts are for Thanksgiving. No 3D, no decoration, no map just because you can, and nothing an executive needs a ruler and a highlighter to read. From: Pie Charts Are for Thanksgiving (`cards/pie-charts-are-for-thanksgiving.md`), The Data Ink Ratio (`cards/data-ink-ratio.md`), The Sexy Map Trap (`cards/sexy-map-trap.md`), The Ruler and Highlighter Test (`cards/ruler-and-highlighter-test.md`).
 7. If AI builds the reports now, does each one change what someone does? Or is it the old report, faster? From: Faster at the Old Way (`cards/faster-at-the-old-way.md`).
 8. Who has to work differently for this to get used, and what are they giving up? The dashboard is the easy part. From: We're in the Behavior Change Business (`cards/were-in-the-behavior-change-business.md`).
+
+## Where this fits
+
+These run in order: the strategy, then the work, then the results.
+
+1. **The strategy**: Before the AI build (`analytics-pitfalls-before-the-ai-build`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them.
+2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for. This one is here.
+3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
+
+When you're done, say what comes next, by name: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
 
 ## The cards
 

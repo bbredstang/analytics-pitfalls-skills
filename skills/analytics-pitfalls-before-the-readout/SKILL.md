@@ -16,7 +16,7 @@ Use it when someone shares or describes a number, an analysis or a deck before i
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
-5. Finish with the links of the cards you used.
+5. Finish with the links of the cards you used, and say which skill comes next (Where this fits, below).
 
 ## Brian Cariveau's questions
 
@@ -29,6 +29,16 @@ Use it when someone shares or describes a number, an analysis or a deck before i
 7. Does it need to be certain? Seventy percent on time beats ninety-five percent too late. Would a quick test settle it? From: The 95% Confidence Trap (`cards/95-confidence-trap.md`), Hope is Not a Strategy (`cards/hope-is-not-a-strategy.md`), The 70% Confidence Principle (`frameworks/seventy-percent-confidence.md`).
 8. If AI wrote any of it, did someone actually read it? And is it inside the tolerance you set, or are you still asking whether it’s right? From: Confident, With Formatting (`cards/confident-with-formatting.md`), Is It Right? (`cards/is-it-right.md`).
 9. Say the number’s right. What has to change in how people work for it to move? That’s the part a readout can’t do for you. From: We're in the Behavior Change Business (`cards/were-in-the-behavior-change-business.md`).
+
+## Where this fits
+
+These run in order: the strategy, then the work, then the results.
+
+1. **The strategy**: Before the AI build (`analytics-pitfalls-before-the-ai-build`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them.
+2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership. This one is here.
+
+This is the last of them. When you're done, say so: the next round starts again with the strategy.
 
 ## The cards
 
