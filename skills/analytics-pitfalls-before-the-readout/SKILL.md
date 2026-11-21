@@ -12,22 +12,22 @@ From Analytics Pitfalls & Principles, by Brian Cariveau: 12 cards and 1 framewor
 
 Use it when someone shares or describes a number, an analysis or a deck before it goes to leadership, before it goes any further.
 
-1. Take the questions below in order, against their actual work. For each, open the files it names and answer from them.
+1. Take Brian Cariveau's questions below in order, against their actual work, and ask them in his words rather than your own. For each, open the files it names and answer from them.
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
 5. Finish with the links of the cards you used.
 
-## The questions
+## Brian Cariveau's questions
 
-1. Is the number that went up one that makes the business win? From: The Million User Mirage (`cards/million-user-mirage.md`), The 41,000 Hours (`cards/41000-hours.md`).
-2. What else could explain it? From: Ice Cream Causes Drowning (`cards/ice-cream-causes-drowning.md`), The Rain Dance That Worked (`cards/rain-dance-that-worked.md`).
-3. Is the change bigger than the noise? From: The Coin Flip Fallacy (`cards/coin-flip-fallacy.md`).
-4. What does the average hide? From: The Statistician Who Drowned (`cards/statistician-who-drowned.md`).
-5. Did the analysis set out to prove what someone already wanted? From: Finding What You Wanted to Find (`cards/finding-what-you-wanted-to-find.md`).
-6. Does it only look back, or does it help someone decide what comes next? From: Rearview vs Windshield (`cards/rearview-vs-windshield.md`).
-7. Does it need to be certain? Would a directional answer now beat a perfect one late, and would a test settle it? From: The 95% Confidence Trap (`cards/95-confidence-trap.md`), Hope is Not a Strategy (`cards/hope-is-not-a-strategy.md`), The 70% Confidence Principle (`frameworks/seventy-percent-confidence.md`).
-8. If AI wrote any of it, has someone read it closely, and is it within tolerance? From: Confident, With Formatting (`cards/confident-with-formatting.md`), Is It Right? (`cards/is-it-right.md`).
+1. If this number goes up, does the business actually win? A million signups or 41,000 hours saved can both go nowhere. From: The Million User Mirage (`cards/million-user-mirage.md`), The 41,000 Hours (`cards/41000-hours.md`).
+2. What else could explain it? Correlation is a clue, not proof. From: Ice Cream Causes Drowning (`cards/ice-cream-causes-drowning.md`), The Rain Dance That Worked (`cards/rain-dance-that-worked.md`).
+3. Is the change bigger than the noise, or did we just flip a coin a few times? From: The Coin Flip Fallacy (`cards/coin-flip-fallacy.md`).
+4. What’s the average hiding? Remember the statistician who drowned in a river three feet deep, on average. From: The Statistician Who Drowned (`cards/statistician-who-drowned.md`).
+5. Did we set out to prove what somebody already wanted to hear? Write down what you expect before you look. From: Finding What You Wanted to Find (`cards/finding-what-you-wanted-to-find.md`).
+6. What should someone do on Monday because of this? If it only looks in the rearview mirror, nobody will do anything. From: Rearview vs Windshield (`cards/rearview-vs-windshield.md`).
+7. Does it need to be certain? Seventy percent on time beats ninety-five percent too late. Would a quick test settle it? From: The 95% Confidence Trap (`cards/95-confidence-trap.md`), Hope is Not a Strategy (`cards/hope-is-not-a-strategy.md`), The 70% Confidence Principle (`frameworks/seventy-percent-confidence.md`).
+8. If AI wrote any of it, did someone actually read it? And is it inside the tolerance you set, or are you still asking whether it’s right? From: Confident, With Formatting (`cards/confident-with-formatting.md`), Is It Right? (`cards/is-it-right.md`).
 
 ## The cards
 

@@ -12,22 +12,22 @@ From Analytics Pitfalls & Principles, by Brian Cariveau: 18 cards and 2 framewor
 
 Use it when someone shares or describes an AI strategy, a pilot, an agent or a rollout, before it goes any further.
 
-1. Take the questions below in order, against their actual work. For each, open the files it names and answer from them.
+1. Take Brian Cariveau's questions below in order, against their actual work, and ask them in his words rather than your own. For each, open the files it names and answer from them.
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
 5. Finish with the links of the cards you used.
 
-## The questions
+## Brian Cariveau's questions
 
-1. What problem does it fix, how often does that problem cost money, and what do people do about it today? Compare it to that, not to nothing. From: The Demo Trap (`cards/demo-trap.md`), The AI Hype Cycle Trap (`frameworks/ai-hype-cycle-trap.md`).
-2. How will anyone know that work changed? Not how many logged in, and not how many hours a survey says were saved. From: Licenses and Lip Service (`cards/licenses-and-lip-service.md`), The 41,000 Hours (`cards/41000-hours.md`), Usage Is the Receipt (`frameworks/usage-is-the-receipt.md`).
-3. Is it aimed at something big enough to matter? From: The Cup of Coffee Wish (`cards/cup-of-coffee-wish.md`).
-4. What data does it read, and has anyone defined it? From: Planned Isn't In Stock (`cards/planned-isnt-in-stock.md`), Four Hundred and Twelve Boxes (`cards/four-hundred-and-twelve-boxes.md`).
-5. How will its answers be checked, and who watches it once it runs on its own? From: Is It Right? (`cards/is-it-right.md`), Legal Reads Everything (`cards/legal-reads-everything.md`), The Runaway Weekend (`cards/runaway-weekend.md`), The Factory With the Lights Off (`cards/factory-with-the-lights-off.md`).
-6. Will anyone read what it writes before it goes out? From: Confident, With Formatting (`cards/confident-with-formatting.md`).
-7. Does it make one step faster while the work still waits between steps, or make the old way faster? From: Faster Saws (`cards/faster-saws.md`), The Porsche at the Front (`cards/porsche-at-the-front.md`), Faster at the Old Way (`cards/faster-at-the-old-way.md`).
-8. Who does it depend on, and who does it start with? From: The Line Outside Elmer's Door (`cards/line-outside-elmers-door.md`), Everything Runs Through You (`cards/everything-runs-through-you.md`), The Back Row (`cards/back-row.md`), The Drain at the Top (`cards/drain-at-the-top.md`).
+1. How many times a day does this problem cost us money? Compare it to what people do today, not to nothing. A great demo doesn’t count. From: The Demo Trap (`cards/demo-trap.md`), The AI Hype Cycle Trap (`frameworks/ai-hype-cycle-trap.md`).
+2. Show me the receipt. Not licenses, not logins, not hours saved on a survey. What do people actually do differently now? From: Licenses and Lip Service (`cards/licenses-and-lip-service.md`), The 41,000 Hours (`cards/41000-hours.md`), Usage Is the Receipt (`frameworks/usage-is-the-receipt.md`).
+3. Are we asking the genie for a cup of coffee? Aim it at something big enough to matter. From: The Cup of Coffee Wish (`cards/cup-of-coffee-wish.md`).
+4. What data does it read, and has anyone actually defined it? Planned isn’t in stock. From: Planned Isn't In Stock (`cards/planned-isnt-in-stock.md`), Four Hundred and Twelve Boxes (`cards/four-hundred-and-twelve-boxes.md`).
+5. Who checks its answers, and against what tolerance? And who’s watching the weekend it runs on its own? From: Is It Right? (`cards/is-it-right.md`), Legal Reads Everything (`cards/legal-reads-everything.md`), The Runaway Weekend (`cards/runaway-weekend.md`), The Factory With the Lights Off (`cards/factory-with-the-lights-off.md`).
+6. Will a person actually read what it writes before it goes out the door? Confident and nicely formatted doesn’t mean anyone checked it. From: Confident, With Formatting (`cards/confident-with-formatting.md`).
+7. Does it speed up one step while the customer still waits? Or is it paving the cow path, the old way only faster? From: Faster Saws (`cards/faster-saws.md`), The Porsche at the Front (`cards/porsche-at-the-front.md`), Faster at the Old Way (`cards/faster-at-the-old-way.md`).
+8. Who does it lean on, and who goes first? One expert with a line outside their door is a bottleneck. Start with a respected skeptic, not the fan club. And if the boss still asks for the old report, nothing changes. From: The Line Outside Elmer's Door (`cards/line-outside-elmers-door.md`), Everything Runs Through You (`cards/everything-runs-through-you.md`), The Back Row (`cards/back-row.md`), The Drain at the Top (`cards/drain-at-the-top.md`).
 
 ## The cards
 

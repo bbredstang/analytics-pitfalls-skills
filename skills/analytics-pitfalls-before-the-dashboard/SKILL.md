@@ -12,24 +12,25 @@ From Analytics Pitfalls & Principles, by Brian Cariveau: 10 cards and 2 framewor
 
 Use it when someone shares or describes a dashboard request or a draft dashboard, before it goes any further.
 
-1. Take the questions below in order, against their actual work. For each, open the files it names and answer from them.
+1. Take Brian Cariveau's questions below in order, against their actual work, and ask them in his words rather than your own. For each, open the files it names and answer from them.
 2. Skip a question the work already answers well. Say so in a line and move on.
 3. Then pick the one or two cards that matter most for this work, say why in a sentence each, and give their principles in the cards' own words. Never hand someone the whole list.
 4. Say the work looks like a pitfall; never tell someone they have it. If nothing fits, say so.
 5. Finish with the links of the cards you used.
 
-## The questions
+## Brian Cariveau's questions
 
-1. What decision is it for, who makes it, and what story does it have to tell? From: Story First, Data Second (`cards/story-first-data-second.md`).
-2. Does a dashboard already answer it, and would one number do? From: Death by Dashboard (`cards/death-by-dashboard.md`), Sometimes Just Use the Number (`cards/sometimes-just-use-the-number.md`).
-3. Has anyone seen a sketch of it before it is built? From: Build the Picture First (`cards/build-the-picture-first.md`), Build That! (`frameworks/build-that.md`).
-4. What will people do with it? If the answer is export it to Excel, ask why. From: The Data Export Trap (`cards/data-export-trap.md`).
-5. How will you know it is used, and when does it go if it is not? From: Usage Is the Receipt (`frameworks/usage-is-the-receipt.md`).
-6. If there is a draft, does every chart earn its place? No circles, 3D, decoration or maps for their own sake, and nothing an executive needs a ruler to read. From: Pie Charts Are for Thanksgiving (`cards/pie-charts-are-for-thanksgiving.md`), The Data Ink Ratio (`cards/data-ink-ratio.md`), The Sexy Map Trap (`cards/sexy-map-trap.md`), The Ruler and Highlighter Test (`cards/ruler-and-highlighter-test.md`).
-7. If AI is building the reports, is each one a better report, or the old one sooner? From: Faster at the Old Way (`cards/faster-at-the-old-way.md`).
+1. What action will someone take when they see it? Name the person and the action. If nobody can, don’t build it. From: The Sexy Map Trap (`cards/sexy-map-trap.md`), Story First, Data Second (`cards/story-first-data-second.md`).
+2. Is there already a dashboard for this, and would one number do the job? If you’re adding one, kill one nobody uses. From: Death by Dashboard (`cards/death-by-dashboard.md`), Sometimes Just Use the Number (`cards/sometimes-just-use-the-number.md`).
+3. Has anyone reacted to a sketch yet? Build the picture first. Nobody gets excited approving a bullet point. From: Build the Picture First (`cards/build-the-picture-first.md`), Build That! (`frameworks/build-that.md`).
+4. Will they act on it right there, or export it to Excel and act somewhere else? If it’s the export, ask why. From: The Data Export Trap (`cards/data-export-trap.md`).
+5. How will you know it’s used? Usage is the receipt. Set the date it goes if nobody opens it. From: Usage Is the Receipt (`frameworks/usage-is-the-receipt.md`).
+6. If there’s a draft, does every pixel earn its place? Pie charts are for Thanksgiving. No 3D, no decoration, no map just because you can, and nothing an executive needs a ruler and a highlighter to read. From: Pie Charts Are for Thanksgiving (`cards/pie-charts-are-for-thanksgiving.md`), The Data Ink Ratio (`cards/data-ink-ratio.md`), The Sexy Map Trap (`cards/sexy-map-trap.md`), The Ruler and Highlighter Test (`cards/ruler-and-highlighter-test.md`).
+7. If AI builds the reports now, does each one change what someone does? Or is it the old report, faster? From: Faster at the Old Way (`cards/faster-at-the-old-way.md`).
 
 ## The cards
 
+- **The Sexy Map Trap (Just Because You Can, Doesn't Mean You Should)** (`cards/sexy-map-trap.md`): pitfall, Dashboards & Visualization. Ask the brutal question: "Does this visualization make someone want to take action?"
 - **Story First, Data Second (Storyboard Before You Build)** (`cards/story-first-data-second.md`): principle, Dashboards & Visualization. Storyboard first, build second. Before touching any tools, grab a pencil and sketch: What's the hook?
 - **Death by Dashboard (When More Became Less)** (`cards/death-by-dashboard.md`): pitfall, Dashboards & Visualization. Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete them. At work: "We need a dashboard for that."
 - **Sometimes Just Use the Number (When a Chart Makes Things Worse)** (`cards/sometimes-just-use-the-number.md`): principle, Dashboards & Visualization. Not everything needs a chart. If you're showing 1-3 numbers, especially a key metric, just show the number.
@@ -37,7 +38,6 @@ Use it when someone shares or describes a dashboard request or a draft dashboard
 - **The Data Export Trap (When Your Dashboards Are Just CSV Machines)** (`cards/data-export-trap.md`): pitfall, Adoption & Product. Measure data export rate. If >40% of dashboard views end in data export, you built a data dump, not an analytics solution. At work: "Can I get that as an export to Excel?"
 - **Pie Charts Are for Thanksgiving (When Circles Make Everything Harder)** (`cards/pie-charts-are-for-thanksgiving.md`): pitfall, Dashboards & Visualization. Bar charts are almost always better than pie charts. Period. Our brains compare lengths easily but struggle with angles and areas.
 - **The Data Ink Ratio (Every Pixel Must Earn Its Place)** (`cards/data-ink-ratio.md`): principle, Dashboards & Visualization. Data-ink ratio: the proportion of ink (pixels) used to show actual data vs decoration.
-- **The Sexy Map Trap (Just Because You Can, Doesn't Mean You Should)** (`cards/sexy-map-trap.md`): pitfall, Dashboards & Visualization. Ask the brutal question: "Does this visualization make someone want to take action?"
 - **The Ruler and Highlighter Test (When Executives Need Props to Read Your Report)** (`cards/ruler-and-highlighter-test.md`): pitfall, Dashboards & Visualization. Pass the ruler test: if someone needs physical tools to follow your report, it fails.
 - **Faster at the Old Way (Paving the Cow Path With AI)** (`cards/faster-at-the-old-way.md`): pitfall, Dashboards & Visualization. Stop asking for the deck. Ask for the answer, and what the person would do about it. At work: "AI can build us a new report every day now."
 
