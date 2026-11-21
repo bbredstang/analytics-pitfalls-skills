@@ -152,7 +152,7 @@ Answer from this, in a few lines, then offer to start on their actual work.
 
 Things they can say:
 
-- "We’re about to pilot an agent that answers customer emails. Poke holes in it.": Before the AI build (`analytics-pitfalls-before-the-ai-build`)
+- "We’re about to pilot an agent that answers customer emails. Poke holes in it.": Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`)
 - "Here’s our data strategy draft. Run Before the data strategy on it.": Before the data strategy (`analytics-pitfalls-before-the-data-strategy`)
 - "Here’s next year’s reporting roadmap. What would Brian ask?": Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`)
 - "Sales wants a new pipeline dashboard. Check it before we build anything.": Before the dashboard (`analytics-pitfalls-before-the-dashboard`)
@@ -163,7 +163,7 @@ Things they can say:
 
 This skill works any time. When someone is in the middle of a strategy, a dashboard or a readout, these go deeper, and they run in order: the strategy, then the work, then the results. Suggest the one that fits, by name.
 
-1. **The strategy**: Before the AI build (`analytics-pitfalls-before-the-ai-build`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them.
+1. **The strategy**: Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them.
 2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
 3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
 

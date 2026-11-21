@@ -64,7 +64,7 @@ The board, until they swap anyone (ask):
 
 These run in order: the strategy, then the work, then the results.
 
-1. **The strategy**: Before the AI build (`analytics-pitfalls-before-the-ai-build`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them. This one is here.
+1. **The strategy**: Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them. This one is here.
 2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
 3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
 
