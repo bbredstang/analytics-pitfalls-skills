@@ -22,7 +22,7 @@ Use it when what someone is working on, or something they heard at work, looks l
 
 ## The problem
 
-Your data lake has three layers: Bronze (raw data), Silver (cleaned data), Gold (business-ready data). Sounds sophisticated. Then new analyst joins: "Where's customer data?" Answer: "Check Gold layer." They search. Find 14 tables with "customer" in the name. Which one is right? No idea. They ask 3 people, get 3 different answers. Turns out the "right" customer table is actually in Silver because Gold was never finished. Bronze/Silver/Gold tells you nothing about what's inside. It's like Home Depot organizing by "Bronze aisle," "Silver aisle," "Gold aisle" instead of "Paint," "Tools," "Lumber." Users need to understand what data IS, not what processing tier it's in. Metal names are architecture porn—they make engineers feel organized but leave users lost.
+Your data lake has three layers: Bronze, Silver, Gold. Sounds sophisticated. Ask five teams what silver means and you'll get five answers. One team's bronze is raw, another's is cleaned, and one team's silver is the next team's gold. Then new analyst joins: "Where's customer data?" Answer: "Check Gold layer." They search. Find 14 tables with "customer" in the name. Which one is right? No idea. They ask 3 people, get 3 different answers. Turns out the "right" customer table is actually in Silver because Gold was never finished. Bronze/Silver/Gold tells you nothing about what's inside. It's like Home Depot organizing by "Bronze aisle," "Silver aisle," "Gold aisle" instead of "Paint," "Tools," "Lumber." Users need to understand what data IS, not what processing tier it's in. Metal names are architecture porn—they make engineers feel organized but leave users lost.
 
 ## The principle
 
