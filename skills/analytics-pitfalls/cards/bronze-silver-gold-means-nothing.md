@@ -20,7 +20,7 @@ Your data lake has three layers: Bronze (raw data), Silver (cleaned data), Gold 
 
 ## The principle
 
-Name layers by what they contain, not processing stage. Use names that self-document: Raw (exactly as source systems sent it), Curated_SystemName (cleaned, usable, still system-specific), Integrated_TopicName (cross-system, business-ready). Examples: Raw_Salesforce, Curated_Claims, Integrated_Customer. Every name tells you what's inside. The magic happens when a new analyst can guess where data lives without asking anyone. Think retail: you find paint in the Paint section, tools in Tools, lumber in Lumber. Not in Bronze/Silver/Gold sections. Same with data—name by content, not by processing tier.
+Name layers by what they contain, not how refined they are. Four layers cover almost every business: raw (exactly what the system sent), cleaned raw (the same data, formats fixed; most teams call it bronze), system-specific (one system at a time, in its domain; silver) and system-agnostic (every system in a domain, one definition; gold). Examples: raw_support_east_call_system_calls, system_specific_support_east_call_system_calls_daily, system_agnostic_support_calls_daily. Every name tells you what's inside, in full words, with little to no abbreviations. The magic happens when a new analyst, or an agent, can open the database and guess where data lives without asking anyone. Think retail: you find paint in the Paint department, not the Silver aisle.
 
 ## The steps
 
@@ -40,10 +40,11 @@ Common bad patterns:
 - Raw/Cleaned/Final (still doesn't say what's inside)
 2. **Rename Using Content-Based Pattern**
 
-Adopt naming convention:
-- **Raw_SystemName**: Data exactly as source sent it (Raw_Salesforce, Raw_SAP)
-- **Curated_Domain**: Cleaned, usable, system-specific (Curated_Claims, Curated_Calls)
-- **Integrated_Topic**: Cross-system, business-ready (Integrated_Customer, Integrated_Product)
+Adopt four layers, named for what they hold:
+- **raw_**: Data exactly as the source sent it
+- **cleaned_raw_**: Same rows, formats fixed (dates, time zones, money, codes)
+- **system_specific_**: One system at a time, in its domain (system_specific_support_east_call_system_calls_daily)
+- **system_agnostic_**: Every system in a domain, one definition (system_agnostic_support_calls_daily)
 
 Every name answers: "What's in here?"
 
@@ -53,11 +54,11 @@ Update all docs, queries, dashboards to use new names.
 3. **Self-Documenting Standards**
 
 Create naming standards guide:
-- Layer prefix: Raw/Curated/Integrated
-- Domain or system name
-- Optional: granularity (Daily, Summary, etc.)
+- Layer first: raw, cleaned_raw, system_specific, system_agnostic
+- Then domain, system, thing and grain, in full words
+- Little to no abbreviations, in table and column names
 
-Example: Integrated_Customer_Daily vs Integrated_Customer_Summary
+Example: system_agnostic_support_calls_daily vs system_agnostic_support_calls_monthly
 
 Test with new hires: Can they find data without help?
 
@@ -67,7 +68,7 @@ Bonus: Every new table must follow naming standard or gets rejected in code revi
 
 ## In practice
 
-A financial services firm had Bronze/Silver/Gold lake architecture. Beautiful in PowerPoint. Nightmare in practice. New data scientists spent first 2 weeks just learning "which layer has what." Onboarding took 6 weeks because nobody could find data. They renamed everything: Bronze → Raw_SourceSystemName (Raw_Salesforce, Raw_Mainframe, etc.), Silver → Curated_Domain (Curated_Loans, Curated_Customers), Gold → Integrated_BusinessArea (Integrated_Lending, Integrated_Risk). Every name self-documented. New analyst question: "Where's loan data?" Answer obvious: Integrated_Lending. Onboarding dropped from 6 weeks to 1 week. Support tickets about "where's X data" dropped 71%. Bonus: Documentation became less critical because names explained themselves. The architecture didn't change—just the names. But user experience transformed overnight.
+A financial services firm had Bronze/Silver/Gold lake architecture. Beautiful in PowerPoint. Nightmare in practice. New data scientists spent first 2 weeks just learning "which layer has what." Onboarding took 6 weeks because nobody could find data. They renamed every layer for what it held: raw, cleaned raw, system-specific (one loan system at a time) and system-agnostic (every loan system as one), with every table named in full words. Every name self-documented. New analyst question: "Where's loan data?" Answer obvious: system_agnostic_lending_loans_daily. Onboarding dropped from 6 weeks to 1 week. Support tickets about "where's X data" dropped 71%. Bonus: Documentation became less critical because names explained themselves. The architecture didn't change—just the names. But user experience transformed overnight.
 
 ---
 

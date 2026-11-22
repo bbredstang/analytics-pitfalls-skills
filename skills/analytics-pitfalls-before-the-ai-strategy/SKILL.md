@@ -59,13 +59,14 @@ The board, until they swap anyone (ask):
 
 ## Where this fits
 
-These run in order: the strategy, then the work, then the results.
+These run in order: the strategy, then the data, then the work, then the results.
 
 1. **The strategy**: Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them. This one is here.
-2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
-3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
+2. **The data**: The data layers (`analytics-pitfalls-data-layers`), Bronze, the cleaned raw layer (`analytics-pitfalls-bronze-cleaned-raw`), Silver, the system-specific layer (`analytics-pitfalls-silver-system-specific`), Gold, the system-agnostic layer (`analytics-pitfalls-gold-system-agnostic`). Start with the data layers, then bronze, silver and gold, in that order.
+3. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+4. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
 
-When you're done, say what comes next, by name: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+When you're done, say what comes next, by name: The data layers (`analytics-pitfalls-data-layers`). Start with the data layers, then bronze, silver and gold, in that order.
 
 ## The cards
 

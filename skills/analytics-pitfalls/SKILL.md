@@ -1,12 +1,12 @@
 ---
 name: analytics-pitfalls
-description: "Checks analytics and AI work against the 76 cards and 10 frameworks of Analytics Pitfalls & Principles, by Brian Cariveau. Use on a plan, request, dashboard, metric or AI project."
+description: "Checks analytics and AI work against the 79 cards and 10 frameworks of Analytics Pitfalls & Principles, by Brian Cariveau. Use on a plan, request, dashboard, metric or AI project."
 license: CC-BY-4.0
 ---
 
 # Analytics Pitfalls & Principles
 
-76 cards and 10 frameworks by Brian Cariveau, drawn from the novels *The Auction Block* and *The Second Factory*. All of them, free: https://www.analyticspitfalls.com/library
+79 cards and 10 frameworks by Brian Cariveau, drawn from the novels *The Auction Block* and *The Second Factory*. All of them, free: https://www.analyticspitfalls.com/library
 
 ## How to use it
 
@@ -24,9 +24,9 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 - **We Forgot People Use This Stuff (The Tech Was Perfect, Adoption Was Zero)** (`cards/we-forgot-people-use-this-stuff.md`): pitfall, Adoption & Product. Design for humans, not for perfection. Talk to users early and often. Build for their skill level, not yours.
 - **Garbage In, Powerhouse Out? (Nope.)** (`cards/garbage-in-powerhouse-out.md`): pitfall, Data Foundations. Clean, simple data beats sophisticated models on dirty data every single time. Treat data quality like you'd treat raw materials in manufacturing—inspect, validate, reject defects before they enter the line.
 - **The Million User Mirage (Celebrating the Wrong Wins)** (`cards/million-user-mirage.md`): pitfall, Metrics & Evidence. Track what matters, not what looks good on a slide. Ask: "If this metric goes up, does revenue go up? Do customers get happier? Does the business actually win?"
-- **Death by Dashboard (When More Became Less)** (`cards/death-by-dashboard.md`): pitfall, Dashboards & Visualization. Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete them. At work: "We need a dashboard for that."
-- **Build the Picture First: Why Mockups Beat Requirements Documents** (`cards/build-the-picture-first.md`): pitfall, Delivery & Execution. Pictures are more powerful than words. Mockups are better specs than requirements documents. At work: "Send me the requirements doc first."
 - **The 95% Confidence Trap (Perfection is the Enemy of Progress)** (`cards/95-confidence-trap.md`): pitfall, Metrics & Evidence. Ship at 70% confidence and learn fast. Set a decision deadline and work backward. At work: "Let’s wait until the data is perfect."
+- **Build the Picture First: Why Mockups Beat Requirements Documents** (`cards/build-the-picture-first.md`): pitfall, Delivery & Execution. Pictures are more powerful than words. Mockups are better specs than requirements documents. At work: "Send me the requirements doc first."
+- **Death by Dashboard (When More Became Less)** (`cards/death-by-dashboard.md`): pitfall, Dashboards & Visualization. Less is more. Seriously. Kill the dashboards nobody uses. I mean it—delete them. At work: "We need a dashboard for that."
 - **Ice Cream Causes Drowning (When Numbers Lie)** (`cards/ice-cream-causes-drowning.md`): pitfall, Metrics & Evidence. Always ask: "What else could explain this relationship?" Correlation is a clue, not proof.
 - **The Coin Flip Fallacy (When Noise Looks Like Signal)** (`cards/coin-flip-fallacy.md`): pitfall, Metrics & Evidence. Don't confuse noise with signal. Before you react to a change, ask: "Is this statistically significant or just random fluctuation?"
 - **The Statistician Who Drowned (in a River with Average Depth 3 Feet)** (`cards/statistician-who-drowned.md`): pitfall, Metrics & Evidence. Dig into the distribution, not just the average. Look at medians, percentiles, outliers.
@@ -62,7 +62,7 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 - **The Ruler and Highlighter Test (When Executives Need Props to Read Your Report)** (`cards/ruler-and-highlighter-test.md`): pitfall, Dashboards & Visualization. Pass the ruler test: if someone needs physical tools to follow your report, it fails.
 - **Pie Charts Are for Thanksgiving (When Circles Make Everything Harder)** (`cards/pie-charts-are-for-thanksgiving.md`): pitfall, Dashboards & Visualization. Bar charts are almost always better than pie charts. Period. Our brains compare lengths easily but struggle with angles and areas.
 - **The 80% Warehouse (When Most of Your Data Just Sits There)** (`cards/80-warehouse.md`): pitfall, Data Foundations. Track data usage like inventory turnover. Manufacturing plants obsess over "inventory turns"—how fast raw materials move through the system.
-- **Bronze, Silver, Gold Means Nothing (When Layer Names Don't Help)** (`cards/bronze-silver-gold-means-nothing.md`): pitfall, Data Foundations. Name layers by what they contain, not processing stage. Use names that self-document: Raw (exactly as source systems sent it), Curated_SystemName (cleaned, usable, still system-specific), Integrated_TopicName (cross-system, business-ready).
+- **Bronze, Silver, Gold Means Nothing (When Layer Names Don't Help)** (`cards/bronze-silver-gold-means-nothing.md`): pitfall, Data Foundations. Name layers by what they contain, not how refined they are. Four layers cover almost every business: raw (exactly what the system sent), cleaned raw (the same data, formats fixed; most teams call it bronze), system-specific (one system at a time, in its domain; silver) and system-agnostic (every system in a domain, one definition; gold).
 - **The Messy Garage (When Clutter Holds You Back)** (`cards/messy-garage.md`): pitfall, Data Foundations. Clean the garage. Manufacturing plants run "5S" programs (Sort, Set in order, Shine, Standardize, Sustain)—regular cleanup cycles to eliminate waste.
 - **Licenses and Lip Service (When Everyone Logs In and Nobody Changes)** (`cards/licenses-and-lip-service.md`): pitfall, Adoption & Product. Usage is the receipt. Logins, licenses and course completions are promises. Daily use on real work is proof. At work: "Everyone’s got a license, and almost everyone finished the training."
 - **Planned Isn't In Stock (When an Agent Reads Data Nobody Defined)** (`cards/planned-isnt-in-stock.md`): pitfall, Data Foundations. Customer-facing agents read only from defined, trusted data. If a word matters to the business, write down what it means before an agent acts on it. At work: "Just point the agent at the shared drive."
@@ -83,6 +83,9 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 - **Legal Reads Everything (When Checking Every Answer Catches Less)** (`cards/legal-reads-everything.md`): pitfall, Delivery & Execution. Decide what safe enough looks like before you need it. Check by risk, not by habit.
 - **A Logo Before the Data (When the Platform Is Really a Query)** (`cards/a-logo-before-the-data.md`): pitfall, Strategy & Focus. Name the data before you name the platform. Most big asks are a few kinds of data and one question nobody asked: joined around what?
 - **Seven Versions of the Truth (When Nobody Can Say Which Data Is Good)** (`cards/seven-versions-of-the-truth.md`): pitfall, Data Foundations. Rate your data, promote one, retire the rest. Every domain needs one data product people can trust without asking, and a rating that says how far to trust it.
+- **Cleaning the Same Dates Every Morning (When Every Query Fixes Raw Data Again)** (`cards/cleaning-the-same-dates-every-morning.md`): pitfall, Data Foundations. Clean it once, at the door. Between raw and everything else, add one layer whose only job is formats: dates, time zones, money, numbers, yes and no, blanks, codes and addresses, each written one standard way.
+- **The Blender (When Systems Get Mixed Before Anyone Knows What Each One Says)** (`cards/blender.md`): pitfall, Data Foundations. See each system alone before you put them together. Give every source system its own layer, one system at a time, in its domain: one call system, one website, one portal, one claims system.
+- **One System in a Gold Costume (When "All of It" Is Really the Biggest System)** (`cards/one-system-in-a-gold-costume.md`): pitfall, Data Foundations. System-agnostic means every system, one definition. Most teams call it gold. It's the layer the business, the dashboards and the AI agents read, so it has to be all of it, one way.
 
 ## Principles
 
@@ -108,7 +111,7 @@ Use it when someone shares or describes analytics or AI work (a plan, a roadmap,
 - **The 70% Confidence Principle** (`frameworks/seventy-percent-confidence.md`): The 70% Confidence Principle means shipping a directional answer at 70% confidence and learning fast, instead of chasing 95% certainty while the business waits.
 - **Build That!** (`frameworks/build-that.md`): Build That! means validating ideas with a mockup people can react to before writing requirements — the picture is the spec, not a document nobody can quite picture.
 - **Data Tables as Hieroglyphics** (`frameworks/data-tables-as-hieroglyphics.md`): Data Tables as Hieroglyphics is the argument that cryptic schema names like fact_trx_dtl_v3 are gatekeeping dressed up as rigor, not a technical necessity.
-- **Medallion Architecture Disdain** (`frameworks/medallion-architecture-disdain.md`): Medallion Architecture Disdain argues that Bronze/Silver/Gold layer naming describes processing stage, not content — call it the Paint Department instead, a name that tells you what happens there.
+- **Medallion Architecture Disdain** (`frameworks/medallion-architecture-disdain.md`): Medallion Architecture Disdain argues that Bronze/Silver/Gold layer naming describes processing stage, not content — call it the Paint Department instead: raw, cleaned raw, system-specific and system-agnostic, names that tell you what is there.
 - **The AI Hype Cycle Trap** (`frameworks/ai-hype-cycle-trap.md`): The AI Hype Cycle Trap is building the impressive AI demo instead of the boring, high-value fix — because demo success and production value are not the same thing, and the gap between them is where budgets go to die.
 - **The Four E's** (`frameworks/four-es.md`): The Four E's — Engagement, Experience, Effectiveness, Efficiency — describe the order analytics maturity actually moves through, and the order is non-negotiable: chase efficiency before anyone is engaged and you optimize something nobody uses.
 - **Ecosystems Over Products** (`frameworks/ecosystems-over-products.md`): Ecosystems Over Products means building an interconnected system of analytics assets that reference and reinforce each other, instead of a pile of isolated dashboards and models that each stand alone.
@@ -155,17 +158,19 @@ Things they can say:
 - "We’re about to pilot an agent that answers customer emails. Poke holes in it.": Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`)
 - "Here’s our data strategy draft. Run Before the data strategy on it.": Before the data strategy (`analytics-pitfalls-before-the-data-strategy`)
 - "Here’s next year’s reporting roadmap. What would Brian ask?": Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`)
+- "Here’s our lakehouse plan, bronze to gold. Does it hold up?": The data layers (`analytics-pitfalls-data-layers`)
 - "Sales wants a new pipeline dashboard. Check it before we build anything.": Before the dashboard (`analytics-pitfalls-before-the-dashboard`)
 - "Here’s the deck for Thursday’s readout. What’s it hiding?": Before the readout (`analytics-pitfalls-before-the-readout`)
 - "Someone just told me the AI demo went great. Which card is that?": the whole set (`analytics-pitfalls`)
 
 ## The skills for a moment at work
 
-This skill works any time. When someone is in the middle of a strategy, a dashboard or a readout, these go deeper, and they run in order: the strategy, then the work, then the results. Suggest the one that fits, by name.
+This skill works any time. When someone is in the middle of a strategy, a dashboard or a readout, these go deeper, and they run in order: the strategy, then the data, then the work, then the results. Suggest the one that fits, by name.
 
 1. **The strategy**: Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them.
-2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
-3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
+2. **The data**: The data layers (`analytics-pitfalls-data-layers`), Bronze, the cleaned raw layer (`analytics-pitfalls-bronze-cleaned-raw`), Silver, the system-specific layer (`analytics-pitfalls-silver-system-specific`), Gold, the system-agnostic layer (`analytics-pitfalls-gold-system-agnostic`). Start with the data layers, then bronze, silver and gold, in that order.
+3. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+4. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
 
 ---
 

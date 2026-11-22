@@ -6,7 +6,7 @@ authors:
   - given-names: Brian
     family-names: Cariveau
     website: "https://www.analyticspitfalls.com/about"
-abstract: "Free skills for Claude, ChatGPT and Gemini, made from the pitfall and principle cards and the ten frameworks of Analytics Pitfalls & Principles by Brian Cariveau."
+abstract: "Free skills for Claude, ChatGPT, Gemini and Microsoft 365 Copilot Cowork, made from the pitfall and principle cards and the ten frameworks of Analytics Pitfalls & Principles by Brian Cariveau, including four for the data layers: raw, cleaned raw (bronze), system-specific (silver) and system-agnostic (gold)."
 license: CC-BY-4.0
 url: "https://www.analyticspitfalls.com/library/skills"
 repository-code: "https://github.com/bbredstang/analytics-pitfalls-skills"
@@ -17,3 +17,7 @@ keywords:
   - AI strategy
   - agent skills
   - SKILL.md
+  - medallion architecture
+  - data layers
+  - data engineering
+  - lakehouse

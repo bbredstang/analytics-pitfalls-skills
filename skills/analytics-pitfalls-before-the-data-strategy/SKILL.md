@@ -62,13 +62,14 @@ The board, until they swap anyone (ask):
 
 ## Where this fits
 
-These run in order: the strategy, then the work, then the results.
+These run in order: the strategy, then the data, then the work, then the results.
 
 1. **The strategy**: Before the AI strategy (`analytics-pitfalls-before-the-ai-strategy`), Before the data strategy (`analytics-pitfalls-before-the-data-strategy`), Before the BI strategy (`analytics-pitfalls-before-the-bi-strategy`). Pick the one you’re writing. They sit side by side; there’s no order between them. This one is here.
-2. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
-3. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
+2. **The data**: The data layers (`analytics-pitfalls-data-layers`), Bronze, the cleaned raw layer (`analytics-pitfalls-bronze-cleaned-raw`), Silver, the system-specific layer (`analytics-pitfalls-silver-system-specific`), Gold, the system-agnostic layer (`analytics-pitfalls-gold-system-agnostic`). Start with the data layers, then bronze, silver and gold, in that order.
+3. **The work**: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+4. **The results**: Before the readout (`analytics-pitfalls-before-the-readout`). When the first numbers go to leadership.
 
-When you're done, say what comes next, by name: Before the dashboard (`analytics-pitfalls-before-the-dashboard`). Once for each dashboard the strategy calls for.
+When you're done, say what comes next, by name: The data layers (`analytics-pitfalls-data-layers`). Start with the data layers, then bronze, silver and gold, in that order.
 
 ## The cards
 
@@ -82,7 +83,7 @@ When you're done, say what comes next, by name: Before the dashboard (`analytics
 - **The Wild West of Data (When Everyone Does Whatever They Want)** (`cards/wild-west-of-data.md`): pitfall, Data Foundations. Set clear rules and enforce them. Define metrics once, centrally, and make that the source of truth. At work: "Finance has a different number."
 - **Seven Versions of the Truth (When Nobody Can Say Which Data Is Good)** (`cards/seven-versions-of-the-truth.md`): pitfall, Data Foundations. Rate your data, promote one, retire the rest. Every domain needs one data product people can trust without asking, and a rating that says how far to trust it.
 - **Database Hieroglyphics (When Nobody Can Read Your Schema)** (`cards/database-hieroglyphics.md`): pitfall, Data Foundations. Name everything like you're explaining it to your grandmother—clear, complete, obvious. At work: "What does fact_trx_dtl_v3 even mean?"
-- **Bronze, Silver, Gold Means Nothing (When Layer Names Don't Help)** (`cards/bronze-silver-gold-means-nothing.md`): pitfall, Data Foundations. Name layers by what they contain, not processing stage. Use names that self-document: Raw (exactly as source systems sent it), Curated_SystemName (cleaned, usable, still system-specific), Integrated_TopicName (cross-system, business-ready).
+- **Bronze, Silver, Gold Means Nothing (When Layer Names Don't Help)** (`cards/bronze-silver-gold-means-nothing.md`): pitfall, Data Foundations. Name layers by what they contain, not how refined they are. Four layers cover almost every business: raw (exactly what the system sent), cleaned raw (the same data, formats fixed; most teams call it bronze), system-specific (one system at a time, in its domain; silver) and system-agnostic (every system in a domain, one definition; gold).
 - **Crowdsource the Metadata (Stop Being the Bottleneck)** (`cards/crowdsource-the-metadata.md`): principle, Data Foundations. Let users document what they know. Wikipedia works because millions contribute, not because one team writes everything.
 - **Everything Complex Can Seem Simple (The Art of Ruthless Simplification)** (`cards/everything-complex-can-seem-simple.md`): principle, Strategy & Focus. Relentlessly simplify. Every metric, model, and process—ask: "Can this be simpler?"
 - **The Goldilocks Data Model (Too Hot, Too Cold, Never Just Right)** (`cards/goldilocks-data-model.md`): pitfall, Data Foundations. A data model has ONE job: make data easier to use for those crafting solutions with it—the BI analysts and data scientists.
@@ -94,7 +95,7 @@ When you're done, say what comes next, by name: Before the dashboard (`analytics
 
 - **Manufacturing Mindset** (`frameworks/manufacturing-mindset.md`): The Manufacturing Mindset treats data work as factory work — measuring throughput, cycle time, waste, and yield instead of counting deliverables.
 - **Data Tables as Hieroglyphics** (`frameworks/data-tables-as-hieroglyphics.md`): Data Tables as Hieroglyphics is the argument that cryptic schema names like fact_trx_dtl_v3 are gatekeeping dressed up as rigor, not a technical necessity.
-- **Medallion Architecture Disdain** (`frameworks/medallion-architecture-disdain.md`): Medallion Architecture Disdain argues that Bronze/Silver/Gold layer naming describes processing stage, not content — call it the Paint Department instead, a name that tells you what happens there.
+- **Medallion Architecture Disdain** (`frameworks/medallion-architecture-disdain.md`): Medallion Architecture Disdain argues that Bronze/Silver/Gold layer naming describes processing stage, not content — call it the Paint Department instead: raw, cleaned raw, system-specific and system-agnostic, names that tell you what is there.
 - **It Was Never About the Tech** (`frameworks/it-was-never-about-the-tech.md`): It Was Never About the Tech is the observation that analytics transformations fail on politics, people, and principles far more often than on tooling — the technology is rarely the binding constraint.
 
 ---

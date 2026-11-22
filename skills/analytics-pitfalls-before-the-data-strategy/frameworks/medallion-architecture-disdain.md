@@ -13,18 +13,20 @@ Use it as a lens when someone's analytics or AI work touches what it describes.
 4. If one of the cards below names their problem more exactly, use that card as it says.
 5. Finish with the framework's link: https://www.analyticspitfalls.com/frameworks/medallion-architecture-disdain
 
-> Medallion Architecture Disdain argues that Bronze/Silver/Gold layer naming describes processing stage, not content — call it the Paint Department instead, a name that tells you what happens there.
+> Medallion Architecture Disdain argues that Bronze/Silver/Gold layer naming describes processing stage, not content — call it the Paint Department instead: raw, cleaned raw, system-specific and system-agnostic, names that tell you what is there.
 
 ## The problem hiding behind a tidy diagram
 
 Bronze, Silver, and Gold sounds sophisticated on an architecture slide. It falls apart the moment a new analyst asks where customer data lives and gets sent to the Gold layer, where fourteen different tables have "customer" somewhere in the name and three different colleagues give three different answers about which one is actually correct. It turns out the real customer table lives in Silver, because Gold was never finished — a detail nobody wrote down anywhere, because the naming convention never asked anyone to.
 
-Metal-tier names describe processing stage: how refined the data is. They say nothing about content: what the data actually is. That distinction sounds academic until you watch a new hire lose their first two weeks just learning which layer holds what, purely because the labels were optimized to look organized in a diagram rather than to help a human find something.
+Ask five teams what "silver" means and you'll get five answers. Metal-tier names describe processing stage: how refined the data is. They say nothing about content: what the data actually is. That distinction sounds academic until you watch a new hire lose their first two weeks just learning which layer holds what, purely because the labels were optimized to look organized in a diagram rather than to help a human find something.
 
 
 ## Name it like a hardware store, not a metallurgy chart
 
-Replace processing-tier names with content-based ones. Raw_SourceSystemName for data exactly as it arrived — Raw_Salesforce, Raw_Mainframe. Curated_Domain for data that's cleaned and usable but still tied to one system — Curated_Claims, Curated_Calls. Integrated_Topic for data that's cross-system and business-ready — Integrated_Customer, Integrated_Lending. Every name now answers "what's in here" on its own, without a meeting.
+Replace processing-tier names with content-based ones. Four layers cover almost every business. Raw: exactly what the source system sent. Cleaned raw, where most teams put bronze: the same rows, with dates, time zones, money and codes in one standard format. System-specific, where silver usually sits: one system at a time, in its domain, so one call system, one website, one claims system. System-agnostic, the real gold: every system in a domain as one, with one definition, tied to the master data. Name tables layer first, then domain, system, thing and grain, in full words: system_specific_support_east_call_system_calls_daily, system_agnostic_support_calls_daily. Every name now answers "what's in here" on its own, without a meeting.
+
+Little to no abbreviations, in every layer. Someone who opens the database should be able to read it without a lookup. Stupidly simple for humans is stupidly simple for agents: an AI reads the same names you do.
 
 The test for whether this is working: ask five analysts where they'd look for a specific kind of data, with no documentation open. If they can guess correctly from the name alone, the naming succeeded. If they need to ask someone, it failed — no matter how elegant the underlying architecture is.
 
@@ -42,6 +44,9 @@ Audit whatever your current layer or zone names are, and be honest about whether
 ## Cards that go with it
 
 - **Bronze, Silver, Gold Means Nothing (When Layer Names Don't Help)** (`../cards/bronze-silver-gold-means-nothing.md`), https://www.analyticspitfalls.com/cards/61
+- **Cleaning the Same Dates Every Morning (When Every Query Fixes Raw Data Again)**, https://www.analyticspitfalls.com/cards/86
+- **The Blender (When Systems Get Mixed Before Anyone Knows What Each One Says)**, https://www.analyticspitfalls.com/cards/87
+- **One System in a Gold Costume (When "All of It" Is Really the Biggest System)**, https://www.analyticspitfalls.com/cards/88
 
 ---
 
