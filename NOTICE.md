@@ -10,6 +10,10 @@ Keep the credit line at the end of each skill. Where you use a card or framework
 
 > "The Demo Trap" by Brian Cariveau, Analytics Pitfalls & Principles (https://www.analyticspitfalls.com/cards/66), CC BY 4.0. Changed by [you], if you changed it.
 
+## The ideas they credit
+
+The skills credit the people whose ideas they stand on: Stephen Few and Edward Tufte, Bill Inmon and Ralph Kimball, Ronald Heifetz, and the people each card names. Those ideas are theirs. The skills say them in Brian Cariveau's own words and point to their books; nothing here is theirs to license, or licensed by them.
+
 ## What the license does not cover
 
 - **The names.** Analytics Pitfalls & Principles, The Auction Block and The Second Factory, and the Analytics Pitfalls & Principles logo, are Brian Cariveau's and are not licensed (CC BY 4.0 grants no trademark rights). Don't name your version with them, or use them to suggest that it comes from or is endorsed by Brian Cariveau or Analytics Pitfalls & Principles.

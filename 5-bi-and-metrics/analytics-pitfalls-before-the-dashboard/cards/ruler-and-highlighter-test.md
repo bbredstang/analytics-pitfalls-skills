@@ -1,0 +1,74 @@
+# The Ruler and Highlighter Test (When Executives Need Props to Read Your Report)
+
+A pitfall card from Analytics Pitfalls & Principles, drawn from *The Auction Block* by Brian Cariveau (https://www.analyticspitfalls.com/book).
+https://www.analyticspitfalls.com/cards/54
+
+## How to use this card
+
+Use it when what someone is working on, or something they heard at work, looks like the problem below: a plan, a roadmap, a request, a dashboard, a metric, an AI project.
+
+1. If you don't know their situation yet (what they're working on, and where: their kind of company and team), ask one short question first, unless the conversation already says. Then fit everything below to it, not to a generic company.
+2. Name the card by its title and say in a sentence why it fits. Say the work looks like this pitfall; never tell someone they have it.
+3. Give the principle in the card's own words. Don't rewrite it.
+4. Take the steps one at a time against their actual situation: what is already done, what isn't, and which to do first. If you need a fact to do that, ask one question, not five.
+5. Then push past the technical fix, if the work needs people to work differently (most does). The steps are the if-then part. Ask what has to change in how people work, what they have to learn or believe, or what they give up, for it to stick. That's the adaptive work (Ronald Heifetz's term), and it's usually the real work.
+6. If the card doesn't fit, say so plainly. Don't stretch it.
+7. Finish with the card's link: https://www.analyticspitfalls.com/cards/54
+
+## The problem
+
+Executive meeting. You present your beautiful report. Data everywhere. Every KPI you could think of. Packed full of insights. Then you notice: the SVP pulls out a ruler. And a highlighter. She's physically drawing lines on her printed copy to track rows across the table. Using the highlighter to mark which numbers matter. You just watched a C-level executive need physical tools to decode your work. That's not analysis—that's archaeology. It's like building a car where drivers need a manual just to find the gas pedal. If executives need rulers and highlighters to read your report, your report is too dense. And you just lost the room.
+
+## The principle
+
+Pass the ruler test: if someone needs physical tools to follow your report, it fails. Less is more. White space is your friend. Show 5 numbers, not 50. Use visual hierarchy to guide the eye. Bold what matters. Gray out what doesn't. Add space between sections. Think manufacturing: a good assembly line doesn't make workers hunt for tools—everything is within arm's reach, clearly labeled. Same with reports. The magic happens when an executive can glance at your report for 30 seconds and know exactly what matters. No props required.
+
+## The steps
+
+1. **The Ruler Test**
+
+Print your report. Hand it to someone unfamiliar with it.
+
+Watch them read it. Do they:
+- Use their finger to track across rows?
+- Get lost in the data?
+- Ask "what should I look at?"
+
+If yes, it's too dense.
+
+Rule: If >10 numbers are equally prominent, it fails. Pick the 3-5 that matter most. Make them big. Everything else is secondary.
+2. **Apply Visual Hierarchy**
+
+Before building:
+- Identify the ONE thing that matters most
+- Make it biggest/boldest
+- Gray out supporting data (still there, but not competing for attention)
+- Add white space between sections
+- Use alignment to create visual flow
+
+Test: Cover the report and ask "what's the point?" If you can't answer in 5 words, the hierarchy is wrong.
+3. **The 30-Second Glance Test**
+
+Can someone unfamiliar with your content:
+- Glance at it for 30 seconds
+- Tell you the main point
+- Identify the key numbers
+
+If no, simplify more.
+
+Executives have 30 seconds. Make them count. Remove everything that doesn't support the main point.
+
+Bonus: Dense reports get skipped. Simple reports get read and acted on.
+
+## In practice
+
+A Fortune 5 healthcare company's analytics team in 2019 presented quarterly results to C-suite. The report: 18 columns, 94 rows, tiny font, packed dense. No white space. A senior exec pulled out a ruler and highlighter mid-meeting to track data across rows. The team was mortified. They rebuilt it: 1 chart showing the trend, 3 key numbers (large font), 2 sentences explaining why. 90% reduction in data shown. Next meeting: exec spent 30 seconds, understood everything, asked great questions. No ruler needed. The team realized: executives don't want all the data—they want the answer. Dense reports signal "I didn't know what mattered so I included everything." Simple reports signal "I know exactly what you need."
+
+## Inspired by
+
+a Fortune 10 healthcare company executive reporting experience (2019). Senior leader using ruler + highlighter revealed report density problem.
+
+---
+
+© 2026 Brian Cariveau, Analytics Pitfalls & Principles. Free to share and adapt under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): keep this credit, "Brian Cariveau, Analytics Pitfalls & Principles (https://www.analyticspitfalls.com)", and say if you changed it.
+The names Analytics Pitfalls & Principles, The Auction Block and The Second Factory are not part of the license. Don't use them for your own version, or to suggest it comes from us.
